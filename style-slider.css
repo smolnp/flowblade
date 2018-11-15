@@ -324,10 +324,6 @@ p.ism-badge a.ism-link:hover {
     color: #fff; background-color: rgba(0, 0, 0, 0.3); background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR42u3SsQkAIAxFQeP+O38XsBKxMPfKgCQcjqHe1W6YJFeXVNXJuxd3zO4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID0RwuEoAh40yYcSQAAAABJRU5ErkJggg==);
 }
 
-#flowblade-slider .ism-pause-button.ism-play {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACy0lEQVR42uWbS2hUVxyHv78PLKKiFgXBiIgvBEVKwZWL4kJrF7oQCSpoAlYkuhCyq4hQ2goqSBFBsNBCoXShbgp15XsTQSGKqKj1QdTYFCVQiuDic5FcGkQhj0nm3vl/6+Ge+X3zO2fumTkXhoi6S51NVtQbapfallVAh//Toc7KLED1jbpPnZJVQMF99fPMAgqOqZ9mFqD6UP06s4CC8+r0MucZN8rX/wJ4pu5VP8nYgIHcU5dna8BAFgM31e8rvUiOoAHvt2FHZgEFf6iTs0yBD/EV0K3uVidkFAAwFTgB3FKXZBRQsBS4q+5XZ2YUUPAtcEVtzioAYBnwm/q7OimjgILNwAt1Z1YBADOAk+ptdUFGAQDRPy0equ213GBVRcBADgOX1Y1ZBQAsB86qP4/0BqqqAgq292+3W7IKAJgNnFI71XkZBRQ5VgBP1DZ1WjYBAzkOXFLXZhUAsBI4p55Qx2cUULAbeKxuyyoAYC7wi3pdnZNRQJHzs/5FslWdmk1AwUTgJ+Ciui6jAACBWcDfGQX0At8A8yPiBsCEROHPA80R0ZNtEXwKtETEmvfDZ2jAIeDHiHjxsRc0ogCBl8DGiOjIdiv8H3AQaBpM+EZrwFVgU0S8zLYd7gLaImL1UMM3QgOOAUcjomu4F6iqgH+AzRFxoRabhCrxlr6/zppqEb5qDbgGbIiI7lpvE8vOc6A9IlbVOnwVGnAS+CEinozWAGUV8BrYGhF/jvZAZZwCh4B5YxG+bA3oBNZHxPOxHLQMDegG9kfEyrEOX4YG/AociIhH9XoD9RLQC7RGxJl6168eU+Aofb/JnSnB9BvTBtwBvhzN7/SyNqAH+C4ilpUt/LAY4lnh0+pCGolBCuhVt9CIDPKhqco8WVrLRfAvYG1EPKjSB1qLRfAVcARYVLXwtZgC5+pxxL3eAq6p/47kaFrVBexRmxolzzsZ+iOF4pXTWQAAAABJRU5ErkJggg==);
-}
-
 #flowblade-slider .ism-button:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -347,47 +343,6 @@ p.ism-badge a.ism-link:hover {
     border-radius: 0;
     color: #fff; background-color: rgba(0, 0, 0, 0.5);
 }
-
-#flowblade-slider .ism-radios li.ism-radio-0 label {
-    background-image: url(../image/slides/flower-729514_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-1 label {
-    background-image: url(../image/slides/beautiful-701678_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-2 label {
-    background-image: url(../image/slides/summer-192179_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-3 label {
-    background-image: url(../image/slides/city-690332_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-4 label {
-    background-image: url(../image/slides/bora-bora-685303_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-5 label {
-    background-image: url(../image/slides/pier-569314_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-6 label {
-    background-image: url(../image/slides/chainlink-690503_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.ism-radio-7 label {
-    background-image: url(../image/slides/tree-701688_1280.jpg);
-}
-
-#flowblade-slider .ism-radios li.active label {
-    background-color: rgba(0, 0, 0, 1.0);
-}
-
-#flowblade-slider .ism-radios label:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
 
 /* SLIDES */
 
