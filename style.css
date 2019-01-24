@@ -222,8 +222,8 @@ img.centered-block {
 
 .header-item {
 	float: left;
-	padding-right: 30px;
-	padding-top: 5px;
+	padding-right: 20px;
+	padding-top: 3px;
 }
 
 .header-item a{
@@ -233,26 +233,26 @@ img.centered-block {
 }
 
 .footer-bg {
-	color:#5294e2;
+	color:#ffffff;
 	background-color: #10131e;
-	padding-bottom: 50px;
-	padding-top: 6px;
-	margin-top: 30px;
+	padding-bottom: 46px;
+	padding-top: 3px;
+	margin-top: 20px;
 }
 
 .footer-box {
-	width: 900px ;
+	width: 1000px ;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .footer-item {
 	float: left;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 
 .footer-item a{
-	color:#ffffff;
+	color:#bbc9d9;
 }
 
 .navigation ul {
