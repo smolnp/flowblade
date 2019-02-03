@@ -3,13 +3,24 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Список эффектов</title>
-<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="toc.js" type="text/javascript"></script>
+	<script src="../jquery.js"></script> 
+	<script> 
+		$(function(){
+		$("#includedHeader").load("help_header.html"); 
+		});
+	</script>
 </head>
 
 <body>
 
+<!-- Header -->
+<div id="includedHeader"></div>
+
 <div id="content">
-<img src="header_text_5.png" >
+<img src="images/header_text_5.png" >
+
 <script src="tocgen.js"></script>
 <div class="subject-header">Эффекты Flowblade</div>
 <br/>
