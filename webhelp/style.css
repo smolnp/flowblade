@@ -27,7 +27,7 @@ html {
 body {
  	font-family: "Ubuntu", sans-serif;
 	color:#222222;
-	background-color: #ffffff; 
+	background: #FFFFFF url(images/img01.jpg) repeat-x left top;
 	/*font:normal 400 14px/1 'robotoregular', Arial, sans-serif;*/
 	font-family: sans-serif;
 	word-wrap: break-word;
@@ -37,6 +37,18 @@ body {
 
 p {
 	padding-top: 8px;
+}
+
+
+/* Page */
+
+#page {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+#page-bgtop {
 }
 
 .header-bg {
@@ -72,8 +84,148 @@ p {
 	text-decoration: none;
 }
 
+/* Content */
+
 #content {
-  width: 700px ;
+	float: right;
+	width: 900px;
+}
+.post {
+	margin: 0px 0px 30px 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.post .title {
+	margin: 0px;
+	padding: 4px 35px 4px 15px;
+	background: #2C3947;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.post .entry {
+	padding: 20px 0px;
+	min-height: 400px;
+}
+
+.post img {
+	padding: 0px 0px;
+}
+
+.post .meta {
+	text-align: right;
+	padding: 0px 0 20px 0;
+	font-weight: bold;
+	color: #202020;
+}
+
+.post .byline {
+	float: right;
+	margin-top: -30px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5E5E5E;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 240px;
+	margin: 0px;
+	padding: 0px 30px 30px 0px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 1px;
+}
+
+#sidebar li ul {
+	margin: 0px;
+	padding: 0px 0px 40px 0px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 9px 0px;
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#sidebar h2 {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	font-size: 160%;
+	font-weight: normal;
+	color: #bac4e9;
+}
+
+#sidebar h3 {
+	font-size: 77%;
+	color: #110404;
+}
+
+#sidebar p {
+	margin: 0;
+	line-height: normal;
+	color: #D4C792;
+}
+
+#sidebar a {
+	border: none;
+	text-decoration: none;
+	color: #4A4949;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+
+/* contact-form */
+
+.contact-form {
+	clear: both;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contact-form form input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 200px;
+}
+
+.contact-form form textarea {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 150px;
+}
+
+.contact-form img#captcha2 {
+	margin-top: 0px;
+}
+
+.contact-form input#captcha_code2 {
+	width: 90px;
+}
+
+.contact-form input#submit2 {
+	width: 100px;
+	height: 22px;
+}
+#content {
+  width: 900px ;
   margin-left: auto ;
   margin-right: auto ;
 }
@@ -163,7 +315,6 @@ p {
 	font-weight:400;
 	font-size:26px;
 }
-
 .filter {
 	margin-bottom: 25px;
 	color: #000000;
