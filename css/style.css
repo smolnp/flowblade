@@ -1,0 +1,481 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline; 
+}
+
+html {
+	font-size: 100%;
+}
+
+::-moz-selection  {
+	background-color:#1D2333;
+	color: #fff;
+}
+
+::selection 	{
+	background-color:#1D2333; 
+	color: #fff; 
+}
+
+a { 
+	outline: 0; 
+	color: #89A7BD; 
+	text-decoration: none; 
+}
+
+a:hover 	{
+	text-decoration: underline;
+}
+
+p a:hover  {
+	color: #195093;
+}
+
+a:active {
+	outline: none;
+	position: relative; 
+	top: 2px; 
+}
+
+.clearfix {
+	clear: both;
+}
+
+.back  {
+	padding-left:10px;
+}
+
+.back a, .back a:visited {
+	color:#0054A6;
+}
+
+body { 
+	background: rgba(16, 19, 30, 0.8); url(images/bg0.jpg) no-repeat top center;
+        color: #FFFFFF; 
+        background-size: 100%;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	-webkit-transition-property: font-size;
+	-moz-transition-property: font-size;
+	transition-property: font-size;
+	-webkit-transition-duration: 0.5s, 0.5s;
+	-moz-transition-duration: 0.5s, 0.5s;
+	transition-duration: 0.5s, 0.5s; 
+	-webkit-transition-timing function: linear, ease-in;
+	-moz-transition-timing function: linear, ease-in; 
+	transition-timing function: linear, ease-in; 
+}
+
+p {
+	padding-top: 8px;
+}
+
+b {
+	color: #8E98B9;
+}
+
+.centered-text { 
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #bbbbbb;
+}
+
+.centered-text-medium { 
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.centered-text-normal { 
+	text-align: center;
+}
+
+#wrapper  { 
+	margin: 10px auto; 
+	max-width: 1200px; 
+	width: 90%; 
+	background: rgba(16, 23, 30, 0.45);
+	padding: 10px 0; 
+	border:1px solid #131829
+}
+
+header { 
+	padding: 0;
+        position: fixed;
+	width: 90%;
+	max-width: 1200px;
+        margin: auto;   
+}
+
+h1  {
+	font-size: 90px; 
+	font-family: serif; 
+	line-height: 75px; 
+	padding: 10px; 
+	-webkit-transition-property: font-size;
+	-moz-transition-property: font-size;
+	transition-property: font-size;
+	-webkit-transition-duration: 0.5s, 0.5s;
+	-moz-transition-duration: 0.5s, 0.5s;
+	transition-duration: 0.5s, 0.5s; 
+	-webkit-transition-timing function: linear, ease-in;
+	-moz-transition-timing function: linear, ease-in; 
+	transition-timing function: linear, ease-in;  
+}
+
+h1 a:hover { 
+	text-decoration: none; 
+	color: #D2D3F2;
+}
+
+h2{
+	font-size:32px;
+	margin-top: 40px;
+	margin-bottom:10px;
+	color:#D2D3F2;
+}
+h3{
+	font-size:22px;
+	margin-top: 50px;
+	margin-bottom:0px;
+	color:#D2D3F2;
+}
+h4{
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 300;
+	font-style: bold;
+	padding: 0px;
+	margin-bottom: 17px;
+	margin-top:10px;
+	margin-bottom:0px;
+	font-size:18px;
+	color:#D2D3F2;
+}
+h5{
+	margin-top:5px;
+	font-size:16px;
+	margin-bottom:0px;
+	margin-left:15px;
+	color:#D2D3F2;
+}
+ h6{
+	font-size:14px;
+}
+
+nav { 
+	background: rgba(11, 12, 18, 0.94); 
+	padding: 0; 
+	margin: 0;
+}
+
+nav a { 
+	color: #fff; 
+	display: block; 
+	float: left; 
+	padding: 10px; 
+}
+
+nav a:visited { 
+	color: #f9f9f9; 
+}
+
+nav a:hover { 
+	text-decoration: none; 
+	background: #194F92; 
+}
+
+nav a:active	{ 
+	position: relative; 
+	top: 0; 
+}
+
+.left-col { 
+	width: 70%; 
+	float: left; 
+}
+
+.left-col p a {
+	color:#7D9CC2;
+}
+
+.left-col p a:hover {
+	color:#55619D;
+}
+
+.black-bg {
+	color:#fff;
+	background-color: url(images/bg0.png) top center no-repeat;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.code-bg {
+	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+	font-weight: bold;
+	font-size: 12px;
+	color:#48EC56;
+	background-color: rgb(2, 12, 21, 0.65);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 3px;
+}
+.selection-red {
+	font-family:"Open Sans",sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color:#940000;
+	background-color: rgb(100, 99, 96, 0.2);
+	padding-bottom: 15px;
+	padding-top: 15px;
+        text-align: center;
+	margin-top: 3px;
+}
+.content-box {
+	width: 80% ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.content-box img {
+	padding-top:10px;
+}
+
+.big-text {
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 0px;
+	font-weight: 300;
+	font-family: "Open Sans",sans-serif;
+	padding-left: 0px;
+	padding-top: 15px;
+	border: medium none;
+	text-transform: uppercase;
+	text-align: left;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	letter-spacing: 0.1em;
+}
+
+.front-text {
+	font-size: 30px;
+	line-height: 22px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	font-weight: 300;
+	font-family: "Open Sans",sans-serif;
+	padding-left: 0px;
+	border: medium none;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	letter-spacing: 0.1em;
+}
+
+.border-top {
+  border-top: 0px solid #1B1F2D;
+  padding-left: 25px;
+  font-weight: bold;
+  background:rgba(255, 0, 0, 0.4);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #1B1F2D;
+  padding-left: 1px;
+  font-weight: bold;
+  background:rgba(22, 34, 46, 0.4);
+}
+
+.border-right {
+  border-right: 1px solid #1B1F2D;
+  padding-left: 10px;
+  font-weight: bold;
+  background:rgba(22, 34, 46, 0.6);
+}
+
+.border-left {
+  border-left: 0px solid #1B1F2D;
+  padding-left: 0px;
+  background:rgba(22, 34, 46, 0.7);
+  font-weight: bold;
+}
+
+#panel {
+   background: rgba(11, 12, 18, 0.1);
+   color: #FFFFFF;
+   padding: 8px; 
+   display: none;
+}
+
+.image-text {
+	font-size: 12px;
+	margin-top: 2px;
+	margin-bottom:12px;
+}
+
+.text-quote {
+	font-style: italic;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom:12px;
+}
+
+#featured {
+	padding: 15px; 
+}
+
+#latest	{
+	padding: 15px; 
+}
+
+#about {
+	padding: 15px;
+        color:#E8E8E8; 
+}
+
+/* Footer */
+
+#footer {
+	margin: 0 auto;
+	padding: 20px 0px;
+	background: rgba(11, 12, 18, 0.94);
+	color: #fff;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: 85%;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #7896ff;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+#tsc a {
+	color: #000;
+}
+
+
+.navigation ul {
+	background-color: #10131e;
+	color:#ffffff;
+	list-style-type: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.navigation li {
+	background-color: #10131e;
+	color:#ffffff;
+	float: left;
+	margin: 0 1.15em;
+	border: 0;
+}
+
+.navigation a {
+	color:#ffffff;
+	text-decoration: none;
+	border: 0;
+}
+
+.navigation {
+	background-color: #10131E;
+	list-style-type: none;
+	text-align: center;
+	border: 0;
+}
+
+/** Columns **/
+.column-wrap{
+	width:100%;
+}
+
+.column2{
+	float:left;
+	width:50%;
+}
+
+.clearfix {
+	clear:left;
+}
+
+/**  fonts  **/
+@font-face {
+    font-family: 'robotoregular';
+    src: url('css/fonts/Roboto-Regular-webfont.eot');
+    src: url('css/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('css/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('css/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('css/fonts/Roboto-Medium-webfont.eot');
+    src: url('css/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('css/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('css/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('css/fonts/Roboto-Light-webfont.eot');
+    src: url('css/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('css/fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('css/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('css/fonts/Roboto-LightItalic-webfont.eot');
+    src: url('css/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('css/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('css/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('css/fonts/Roboto-Black-webfont.eot');
+    src: url('css/fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('css/fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('css/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
