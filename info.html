@@ -2,42 +2,45 @@
 <html class="client-nojs" lang="ru" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-  <title>Дополнительно</title>
-  <link rel="stylesheet" href="style.css">
-    <script src="jquery.js"></script>
-<link rel="shortcut icon" href="webres/favicon.png" />  
-    <script> 
-    $(function(){
-      $("#includedHeader").load("header.html"); 
-    });
-    </script>
-    <script> 
-    $(function(){
-      $("#includedFooter").load("footer.html"); 
-    });
-    </script>
-</head>
-
-<body>
-
-<!-- Header -->
-<div id="includedHeader"></div>
-
-<!-- Content -->
-
-<div class="white-bg" >
+		<title>Дополнительно</title>
+                <link rel="shortcut icon" href="images/icon.png" />
+                <script src="js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   body {
+    background: #2A3B4D url(images/bg1.jpg);
+   }
+  </style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>		
+				<nav>
+                                 <a href="index.html">
+<img src="images/header_text_white_small.png" alt="Frontpage">
+</a>
+					<a href="download.html">Установка</a>
+					<a href="doc/help.html">Руководство пользователя</a>
+					<a href="features.html">Возможности</a>
+					<a href="info.html">Дополнительно</a>
+					<div class="clearfix"></div>
+				</nav>	
+			</header>
+                      <br>
+ <br>
+<div class="black-bg" >
 <div class="content-box">
-
-<div class="big-text">
+<div class="front-text">
 Дополнительно
 </div>
-
-<h1>Документация проекта</h1>
+<h3>Документация проекта</h3>
 <p>
 <a href="https://github.com/jliljebl/flowblade/blob/master/flowblade-trunk/docs/ROADMAP.md">Дорожная карта (en)</a>
 </p>
 <p>
-<a href="https://smolnp.github.io/flowblade/doc/FAQ.html">Часто задаваемые вопросы</a>
+<a href="doc/FAQ.html">Часто задаваемые вопросы</a>
 </p>
 <p>
 <a href="https://github.com/jliljebl/flowblade/blob/master/flowblade-trunk/docs/RELEASE_NOTES.md">Примечания к выпуску (en)</a>
@@ -48,44 +51,36 @@
 <p>
 <a href="https://github.com/jliljebl/flowblade/blob/master/flowblade-trunk/docs/KNOWN_ISSUES.md">Известные ошибки (en)</a>
 </p>
-
-<img src="webres/white_blade.png" width="80px" class="centered-block paddingtop">
-
-<h2>Ресурсы интернета</h2>
+<img src="images/border.png" class="centered-block paddingtop">
+<h3>Ресурсы интернета</h3>
 <h4>Группа ВКонтакте </h4>
 <p>
 Для вопросов и обсуждения Flowblade у нас есть <a href="https://vk.com/flowblade">группа ВКонтакте</a>. Там можно почерпнуть некоторые сведения о происходящем в проекте.
 </p>
-
 <h4>Страница проекта Github (en)</h4>
 <p>
-Сейчас проект Flowblade сосредоточен на странице <a href="https://github.com/jliljebl/flowblade">Flowblade GitHub</a>.
+Проект Flowblade сосредоточен на странице <a href="https://github.com/jliljebl/flowblade">Flowblade GitHub</a>.
 </p>
-
-<h4>Отчёты об ошибках (en)</h4>
+<h4>Отчёты об ошибках и запрос новых функций(en)</h4>
 <p>
-Отчёты об ошибках можно отправлять в раздел <a href="https://github.com/jliljebl/flowblade/issues">Issues</a> на странице проекта GitHub.
+Отчёты об ошибках и запрашиваемые функции рассматриваются в разделе <a href="https://github.com/jliljebl/flowblade/issues">Issues</a> на странице проекта GitHub.
+<img src="images/border.png" class="centered-block paddingtop">
 </p>
-
-<img src="webres/white_blade.png" width="80px" class="centered-block paddingtop">
-
-<h2>Информация о проекте</h2>
-
+<h3>Информация о проекте</h3>
 <p><b>Лицензия: </b>GPL3</p>
 <p><b>Проект начат: </b>Август, 2009</p>
-<p><b>Релизы: </b>16</p>
+<p><b>Релизы: </b>20</p>
 <p><b>Последняя версия: </b>Flowblade 2.0, Февраль 2019</p>
 <p><b>Мультимедийная среда: </b>MLT</p>
 <p><b>Язык программирования: </b>Python</p>
 <p><b>Строк исходного кода: </b>42k</p>
 <p><b>Ведущий разработчик: </b>Janne Liljeblad</p>
-
+    </div>
+  </div>		
+  <div id="footer">
+    <p>Flowblade - Бесплатный, простой и стабильный видеоредактор</p>
+    <p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade">Github(en)</a>, <a href="https://vk.com/flowblade">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber">YouTube</a> | Апстрим: <a href="https://www.mltframework.org">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html">GPL3</a></p>
+  </div>
 </div>
-</div>
-
-<!-- Footer -->
-<div id="includedFooter"></div>
-
 </body>
-
-</html> 
+</html>
