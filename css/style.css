@@ -25,7 +25,7 @@ img, fieldset {
 	border: 0;
 }
 img {
-	max-width: 80%;
+	max-width: 90%;
 	height: auto;
 	width: auto\9; 
 }
@@ -139,7 +139,7 @@ header {
 /* headings */
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.4em;
-	margin: 20px 0 .4em;
+	margin: 15px 0 .4em;
 	color: #D2D3F2;
 }
 h1 {
@@ -150,6 +150,7 @@ h2 {
 }
 h3 {
 	font-size: 1.4em;
+
 }
 h4 {
 	font-size: 1.2em;
@@ -329,7 +330,7 @@ nav a:active	{
   font-weight: bold;
 }
 
-#panel {
+.panel {
    background: rgba(11, 12, 18, 0.1);
    color: #FFFFFF;
    padding: 8px; 
@@ -378,12 +379,12 @@ nav a:active	{
 }
 
 #footer a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #64B1F0;
 }
 
 #footer a:hover {
-	text-decoration: none;
+	text-decoration: inherit;
         color: #B0B8E3;
 }
 
