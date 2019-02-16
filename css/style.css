@@ -25,7 +25,7 @@ img, fieldset {
 	border: 0;
 }
 img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 	width: auto\9; 
 }
@@ -264,7 +264,10 @@ nav a:active	{
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.1em;
 }
-
+.white-bg {
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
 .front-text {
 	line-height: 22px;
 	margin-bottom: 0px;
@@ -277,7 +280,27 @@ nav a:active	{
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.1em;
 }
+.post {
+	margin: 0px 0px 30px 0px;
+}
 
+.post .title {
+	margin: 0px;
+	padding: 10px 35px 10px 15px;
+	background: rgb(2, 12, 21, 0.3);
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.tocitem {
+	font-size:0.9em;
+	line-height: 1.0;
+
+}
+
+.tocli {
+	list-style-type: none;
+}
 .border-top {
   border-top: 0px solid #1B1F2D;
   padding-left: 25px;
@@ -346,21 +369,22 @@ nav a:active	{
 	padding: 20px 0px;
 	background: rgba(11, 12, 18, 0.94);
 	color: #fff;
+        text-align: center;
 }
 
 #footer p {
 	margin: 0;
 	text-align: center;
-	font-size: 85%;
 }
 
 #footer a {
 	text-decoration: underline;
-	color: #7896ff;
+	color: #64B1F0;
 }
 
 #footer a:hover {
 	text-decoration: none;
+        color: #B0B8E3;
 }
 
 #tsc a {
@@ -414,7 +438,30 @@ nav a:active	{
 .clearfix {
 	clear:left;
 }
+.filter {
+	margin-bottom: 25px;
+	color: #D4BE1D;
+	font-weight:400;
+	font-family: sans-serif;
+	word-wrap: break-word;
+	line-height: 1.4;
+	vertical-align: baseline;
+}
 
+.filter-name {
+	padding-left: 20px;
+        color: #1DD425;
+}
+
+.filter-property {
+	padding-left: 50px;
+	font-size:12px;
+}
+.filter-value {
+	display:inline-block;
+	color: #F5073A;
+	font-size: 8;
+}
 /**  fonts  **/
 @font-face {
     font-family: 'robotoregular';
