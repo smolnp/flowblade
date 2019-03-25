@@ -130,8 +130,8 @@ b {
 
 header { 
 	padding: 0;
-        position: fixed;
-	width: 90%;
+        position: relative;
+	width: 100%;
 	max-width: 1200px;
         margin: auto;   
 }
