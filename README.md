@@ -4,3 +4,4 @@
 
 
 [Перейти на сайт](https://smolnp.github.io/flowblade/)
+[Страница Вконтакте](https://vk.com/flowblade)
