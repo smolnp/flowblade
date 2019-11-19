@@ -80,7 +80,7 @@ body {
         color: #FFFFFF; 
         background-size: 100%;
 	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 16px; 
+	font-size: 1em; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
