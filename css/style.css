@@ -79,7 +79,7 @@ body {
 	background: rgba(16, 19, 30, 0.8); url(images/bg0.jpg) no-repeat top center;
         color: #cfcfd0; 
         background-size: 100%;
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Helvetica, Arial,sans-serif; 
 	font-size: 0.9em; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
@@ -117,6 +117,7 @@ b {
 
 .centered-text-normal { 
 	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 #wrapper  { 
@@ -138,6 +139,7 @@ header {
 
 /* headings */
 h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans",sans-serif;
 	line-height: 1.4em;
 	margin: 15px 0 .4em;
 	color: #D2D3F2;
@@ -274,7 +276,7 @@ nav a:active	{
 	margin-bottom: 0px;
 	margin-top: 15px;
 	font-weight: 300;
-	font-family: "Open Sans",sans-serif;
+	font-family: "Open Sans Bold",sans-serif;
 	padding-left: 0px;
 	border: medium none;
 	text-align: center;
@@ -463,6 +465,7 @@ nav a:active	{
 	color: #F5073A;
 	font-size: 8;
 }
+
 /**  fonts  **/
 @font-face {
     font-family: 'robotoregular';
