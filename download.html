@@ -19,7 +19,7 @@
 			<header>		
 				<nav>
                                  <a href="index.html">
-<img src="images/header_text_white_small.webp" alt="Frontpage">
+<img src="images/header_text_white_small.webp" alt="Flowblade">
 </a>
 					<a href="download.html">Установка</a>
 					<a href="doc/help.html">Руководство пользователя</a>
@@ -53,22 +53,56 @@
 	</div>
 	</li>
 </ul>
-<p>
-Релиз был протестирован на: <b>Ubuntu 16.04</b>, <b>Ubuntu 18.04</b>, <b>Linux Mint 18</b>, <b>Linux Mint 19</b> и <b>Debian 8</b>. Также должен работать на всех последующих дистрибутивах Debian.
-</p>
+
 <h3>Установка из репозитория вашего дистрибутива</h3>
 <p>
-Самый простой способ установки Flowblade — это использовать версию из репозитория вашего дистрибутива. Недостатком является то, что доступная версия может быть устаревшей. Если в репозитории вашего дистрибутива используется старая версия Flowblade или отсутствует вовсе, сообщите об этом его разработчиком.
+Самый простой способ установки Flowblade — это установка версии из репозитория вашего дистрибутива. Основным недостатком такой установки может стать устаревшая версия видеоредактора. Если в репозитории вашего дистрибутива находится старая версия Flowblade или отсутствует вовсе, сообщите об этом его разработчикам.
 </p>
+
 <h4>Ubuntu, Debian и Linux Mint</h4>
 <ul>
-	<li>	<p>Откройте терминал и задайте команду:
+	<li> Обновите список репозиториев:
+	<div class="code-bg"> 
+	sudo apt update
+	</div>
+	<li> Задайте команду установки:
+	<div class="code-bg"> 
+	sudo apt install flowblade
+	</div>
+	</li>
+</ul>
+
+<h4>ALT Linux Sisyphus</h4>
+<ul>
+	<li> Добавьте следующуе строки в /etc/apt/sources.list:
+<br>
+<br>	
+<div class="border">
+rpm [Sisyphus] http://ftp.altlinux.org/pub/distributions/ALTLinux/autoimports/Sisyphus noarch autoimports<br>
+rpm [Sisyphus] http://ftp.altlinux.org/pub/distributions/ALTLinux/autoimports/Sisyphus noarch autoimports</div>
+        <br>
+        <li> Обновите список репозиториев:
+	<div class="code-bg"> 
+	sudo apt-get update
+	</div>
+	<li> Задайте команду установки:
 	<div class="code-bg"> 
 	sudo apt-get install flowblade
 	</div>
 	</li>
 </ul>
-<h4>ROSA Desktop Fresh, OpenMandriva</h4>
+
+<h4>OpenMandriva</h4>
+<ul>
+	<li> Включите репозиторий в приложении выбора репозитория (om-repo-picker)
+	<li> Задайте команду установки:
+	<div class="code-bg"> 
+	dnf install flowblade
+	</div>
+	</li>
+</ul>
+
+<h4>ROSA Desktop Fresh</h4>
 <ul>
 	<li>	<p>Откройте терминал и задайте команду:
 	<div class="code-bg"> 
@@ -76,24 +110,24 @@
 	</div>
 	</li>
 </ul>
-<h4>Archlinux</h4>
+
+<h3>Установка через Flatpak</h3>
+<p>Flowblade также можно установить через <a href="https://flatpak.org/setup/">Flatpak</a>.</p>
+<p>Если в вашем дистрибутиве присутствует приложение Gnome SOFTWARE, вы можете установить Flowblade из него.</p>
+<p><b>Можно через терминал:</b></p>
 <ul>
-	<li>	<p>Перейдите на страницу <a href="https://aur.archlinux.org/packages/flowblade/">AUR</a> или задайте команду в терминале:
+	<li> Команда установки
 	<div class="code-bg"> 
-	yaourt -S flowblade
+	flatpak install flathub io.github.jliljebl.Flowblade
+	</div>
+	<li> Команда запуска
+	<div class="code-bg"> 
+	flatpak run io.github.jliljebl.Flowblade
 	</div>
 	</li>
 </ul>
-<h3>Установка разрабатываемой версии</h3>
-<p>Разрабатываемая версия может быть нестабильной и/или иметь новые зависимости.</p>
-<h4>Archlinux</h4>
-<ul>
-	<li>	<p>Перейдите на страницу <a href="https://aur.archlinux.org/packages/flowblade-git/">AUR</a> или задайте команду в терминале:
-	<div class="code-bg"> 
-	yaourt -S flowblade-git
-	</div>
-	</li>
-</ul>
+<div class="border">ПРИМЕЧАНИЕ: версия в Flatpak может отставать от версии из <a href="https://github.com/jliljebl/flowblade/releases">основного репозитория.</a></div>
+
 <h3>Запуск без установки (из исходного кода)</h3>
 <p>Flowblade в настоящее время на 100% является скриптовым приложением, а все зависимости должны быть доступны в популярных дистрибутивах. Поэтому, в большинстве случаев, как стабильную так и разрабатываемую версии Flowblade можно запустить без компиляции.</p>
 <ol>
@@ -113,8 +147,7 @@
 <li>Запустите файл <b>flowblade</b>, который должен находится в распакованной  или скачанной папке по адресу <b>.../flowblade-trunk/flowblade</b></li>
 	<ul>
 	<li>Обратите внимание: если в вашей системе уже имеется установленная версия Flowblade,  для запуска сценария вам потребуется указать полный путь к запускаемой версии или открыть терминал в папке, содержащей сценарий запуска и задать команду <b>./flowblade</b>, во избежании запуска установленной версии.</li></ul>
-<div class="content-box">
-<p style="margin-top:40px"><b>Windows и OS X не поддерживаются. Разработчики Flowblade сосредоточены на предоставлении наилучшей поддержки в Linux и в других свободных платформах.</p></div>
+<p style="margin-top:40px"><div class="border"><b>Windows и OS X не поддерживаются. Разработчики Flowblade сосредоточены на предоставлении наилучшей поддержки в Linux и в других свободных платформах.</b></div></div>
     </div>
   </div>		
   <div id="footer">
