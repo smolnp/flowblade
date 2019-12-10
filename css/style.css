@@ -30,17 +30,14 @@ img {
 	width: auto\9; 
 }
 ::-moz-selection  {
-	background-color:#1D2333;
-	color: #fff;
+	background-color:#2f4559;
 }
 
 ::-webkit-selection  {
-	background-color:#1D2333;
-	color: #fff;
+	background-color:#2f4559;
 }
 ::selection 	{
-	background-color:#1D2333; 
-	color: #fff; 
+	background-color:#2f4559; 
 }
 
 a { 
