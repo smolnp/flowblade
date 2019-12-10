@@ -57,7 +57,7 @@ p a:hover  {
 a:active {
 	outline: none;
 	position: relative; 
-	top: 2px; 
+	top: 0.125em; 
 }
 
 .clearfix {
@@ -65,11 +65,11 @@ a:active {
 }
 
 .back  {
-	padding-left:10px;
+	padding-left: 0.625em;
 }
 
 .back a, .back a:visited {
-	color:#0054A6;
+	color: #0054A6;
 }
 
 body { 
@@ -90,7 +90,7 @@ body {
 }
 
 p {
-	padding-top: 8px;
+	padding-top: 0.5em;
 }
 
 b {
@@ -100,16 +100,16 @@ b {
 .centered-text { 
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 0.7em;
 	color: #bbbbbb;
 }
 
 .centered-text-medium { 
 	text-align: center;
-	font-size: 16px;
+	font-size: 1em;
 	text-transform: uppercase;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 0.625em;
+	margin-bottom: 0.625em;
 }
 
 .centered-text-normal { 
@@ -118,19 +118,19 @@ b {
 }
 
 #wrapper  { 
-	margin: 10px auto; 
-	max-width: 1200px; 
+	margin: 0.625em auto; 
+	max-width: 71.875em; 
 	width: 90%; 
 	background: rgba(16, 23, 30, 0.65);
-	padding: 10px 0; 
-	border:1px solid #131829
+	padding: 0.625em 0; 
+	border: 0.125em solid #131829
 }
 
 header { 
 	padding: 0;
         position: relative;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 750.000em;
         margin: auto;   
 }
 
@@ -138,7 +138,7 @@ header {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans",sans-serif;
 	line-height: 1.4em;
-	margin: 15px 0 .4em;
+	margin: 0.938em 0.4em;
 	color: #D2D3F2;
 }
 h1 {
@@ -179,7 +179,7 @@ nav a {
 	color: #fff; 
 	display: block; 
 	float: left; 
-	padding: 10px; 
+	padding: 0.625em; 
 }
 
 nav a:visited { 
@@ -212,84 +212,84 @@ nav a:active	{
 .black-bg {
 	color:#fff;
 	background-color: url(images/bg0.png) top center no-repeat;
-	padding-bottom: 30px;
-	padding-top: 30px;
+	padding-bottom: 1.875em;
+	padding-top: 1.875em;
 }
 .code-bg {
 	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-	font-weight: bold;
-	font-size: 12px;
+	font-weight: 700;
+	font-size: 0.750em;
 	color:#48EC56;
 	background-color: rgb(2, 12, 21, 0.65);
-	padding-bottom: 15px;
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-top: 3px;
+	padding-bottom: 0.938em;
+	padding-top: 0.938em;
+	padding-left: 0.938em;
+	padding-right: 0.938em;
+	margin-top: 0.188em;
 }
 .selection-red {
 	font-family:"Open Sans",sans-serif;
-	font-weight: bold;
-	font-size: 16px;
+	font-weight: 700;
+	font-size: 1.000em;
 	color:#940000;
 	background-color: rgb(100, 99, 96, 0.2);
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 0.938em;
+	padding-top: 0.938em;
         text-align: center;
-	margin-top: 3px;
+	margin-top: 0.188em;
 }
 .content-box {
 	width: 80% ;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 15px;
+	margin-bottom: 0.938em;
 
 }
 
 .content-box img {
-	padding-top:10px;
+	padding-top:0.625em;
 }
 
 .big-text {
-	font-size: 22px;
-	line-height: 22px;
-	margin-bottom: 0px;
+	font-size: 1.375em;
+	line-height: 1.375em;
+	margin-bottom: 0em;
 	font-weight: 300;
 	font-family: "Open Sans",sans-serif;
-	padding-left: 0px;
-	padding-top: 15px;
+	padding-left: 0em;
+	padding-top: 0.938em;
 	border: medium none;
 	text-transform: uppercase;
 	text-align: left;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	text-shadow: 0.063em 0.063em 0em rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.1em;
 }
 .white-bg {
-	padding-bottom: 30px;
-	padding-top: 10px;
+	padding-bottom: 1.875em;
+	padding-top: 0.625em;
 }
 .front-text {
-	line-height: 22px;
-	margin-bottom: 0px;
-	margin-top: 15px;
+	line-height: 1.375em;
+	margin-bottom: 0em;
+	margin-top: 0.938em;
 	font-weight: 300;
 	font-family: "Open Sans Bold",sans-serif;
-	padding-left: 0px;
+	padding-left: 0em;
 	border: medium none;
 	text-align: center;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	text-shadow: 0.063em 0.063em 0em rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.1em;
 }
 .post {
-	margin: 0px 0px 30px 0px;
+	margin: 0em 0em 1.875em 0em;
 }
 
 .post .title {
-	margin: 0px;
-	padding: 10px 35px 10px 15px;
+	margin: 0em;
+	padding: 0.625em 2.188em 0.625em 0.938em;
 	background: rgb(2, 12, 21, 0.3);
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: 400;
 	color: #FFFFFF;
 }
 .tocitem {
@@ -301,64 +301,75 @@ nav a:active	{
 .tocli {
 	list-style-type: none;
 }
+.border {
+  border: 0.125em double #131829;
+  padding: 0.625em;
+  background:rgba(10, 20, 29, 0.3);
+  font-weight: 400;
+}
+
 .border-top {
-  border-top: 0px solid #1B1F2D;
-  padding-left: 25px;
-  font-weight: bold;
-  background:rgba(255, 0, 0, 0.4);
+  background-color: #1B1F2D;
+  border-top: 0.15em solid;
+  padding-top: 0.625em;
+  background:rgba(10, 20, 29, 0.3);
+  font-weight: 400;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #1B1F2D;
-  padding-left: 1px;
-  font-weight: bold;
-  background:rgba(22, 34, 46, 0.4);
+  background-color: #1B1F2D;
+  border-bottom: 0.15em solid;
+  padding-bottom: 0.625em;
+  background:rgba(10, 20, 29, 0.3);
+  font-weight: 400;
 }
 
 .border-right {
-  border-right: 1px solid #1B1F2D;
-  padding-left: 10px;
-  font-weight: bold;
-  background:rgba(22, 34, 46, 0.6);
+  background-color: #1B1F2D;
+  border-right: 0.15em solid;
+  padding-right: 0.625em;
+  background:rgba(10, 20, 29, 0.3);
+  font-weight: 400;
 }
 
 .border-left {
-  border-left: 0px solid #1B1F2D;
-  padding-left: 0px;
-  background:rgba(22, 34, 46, 0.7);
-  font-weight: bold;
+  background-color: #1B1F2D;
+  border-left: 0.15em solid; 
+  padding-left: 0.625em;
+  background:rgba(10, 20, 29, 0.3);
+  font-weight: 400;
 }
 
 .panel {
    background: rgba(11, 12, 18, 0.1);
    color: #FFFFFF;
-   padding: 8px; 
+   padding: 0.500em; 
    display: none;
 }
 
 .image-text {
-	font-size: 12px;
-	margin-top: 2px;
-	margin-bottom:12px;
+	font-size: 0.750em;
+	margin-top: 0.125em;
+	margin-bottom: 0.750em;
 }
 
 .text-quote {
 	font-style: italic;
 	text-align: center;
-	font-size: 12px;
-	margin-bottom:12px;
+	font-size: 0.750em;
+	margin-bottom: 0.750em;
 }
 
 #featured {
-	padding: 15px; 
+	padding: 0.938em; 
 }
 
 #latest	{
-	padding: 15px; 
+	padding: 0.938em; 
 }
 
 #about {
-	padding: 15px;
+	padding: 0.938em;
         color:#E8E8E8; 
 }
 
@@ -366,7 +377,7 @@ nav a:active	{
 
 #footer {
 	margin: 0 auto;
-	padding: 20px 0px;
+	padding: 1.250em 0em;
 	background: rgba(11, 12, 18, 0.94);
 	color: #fff;
         text-align: center;
@@ -400,7 +411,7 @@ nav a:active	{
 	padding: 0;
 	margin: 0;
 	border: 0;
-	width: 400px;
+	width: 25.000em;
 	margin: 0 auto;
 }
 
@@ -439,9 +450,9 @@ nav a:active	{
 	clear:left;
 }
 .filter {
-	margin-bottom: 25px;
+	margin-bottom: 1.563em;
 	color: #D4BE1D;
-	font-weight:400;
+	font-weight: 400;
 	font-family: sans-serif;
 	word-wrap: break-word;
 	line-height: 1.4;
@@ -449,13 +460,13 @@ nav a:active	{
 }
 
 .filter-name {
-	padding-left: 20px;
+	padding-left: 1.250em;
         color: #1DD425;
 }
 
 .filter-property {
-	padding-left: 50px;
-	font-size:12px;
+	padding-left: 3.125em;
+	font-size: 0.750em;
 }
 .filter-value {
 	display:inline-block;
@@ -471,7 +482,7 @@ nav a:active	{
          url('css/fonts/Roboto-Regular-webfont.woff') format('woff'),
          url('css/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
          url('css/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
@@ -481,7 +492,7 @@ nav a:active	{
          url('css/fonts/Roboto-Medium-webfont.woff') format('woff'),
          url('css/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
          url('css/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
@@ -491,7 +502,7 @@ nav a:active	{
          url('css/fonts/Roboto-Light-webfont.woff') format('woff'),
          url('css/fonts/Roboto-Light-webfont.ttf') format('truetype'),
          url('css/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
@@ -501,7 +512,7 @@ nav a:active	{
          url('css/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
          url('css/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
          url('css/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
@@ -511,6 +522,6 @@ nav a:active	{
          url('css/fonts/Roboto-Black-webfont.woff') format('woff'),
          url('css/fonts/Roboto-Black-webfont.ttf') format('truetype'),
          url('css/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
