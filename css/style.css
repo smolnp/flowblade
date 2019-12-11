@@ -134,6 +134,16 @@ header {
         margin: auto;   
 }
 
+.header {
+  background: rgba(11, 12, 18, 0.94); 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header .logo {
+  padding-left: center;
+}
 /* headings */
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans",sans-serif;
@@ -239,15 +249,37 @@ nav a:active	{
 	margin-top: 0.188em;
 }
 .content-box {
-	width: 80% ;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 0.938em;
+	margin-bottom: 0.538em;
 
 }
 
 .content-box img {
-	padding-top:0.625em;
+	padding-top: 0.825em;
+}
+
+.box-left {
+	margin-left: 0.938em;
+	margin-right: 0.938em;
+}
+
+.box-left img {
+	padding-top: 0.825em;
+        float: left; 
+        padding: 0em 0.938em 0.938em 0em;     
+}
+
+.box-right {
+	margin-left: 0.938em;
+	margin-right: 0.938em;
+}
+
+.box-right img {
+	padding-top: 0.825em;
+        float: right; 
+        padding: 0em 0.938em 0.938em 0.625em;
 }
 
 .big-text {
@@ -280,13 +312,14 @@ nav a:active	{
 	text-shadow: 0.063em 0.063em 0em rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.1em;
 }
+
 .post {
 	margin: 0em 0em 1.875em 0em;
 }
 
 .post .title {
 	margin: 0em;
-	padding: 0.625em 2.188em 0.625em 0.938em;
+	padding: 0.225em 2.188em 0.225em 0.313em;
 	background: rgb(2, 12, 21, 0.3);
 	text-decoration: none;
 	font-weight: 400;
@@ -446,9 +479,6 @@ nav a:active	{
 	width:50%;
 }
 
-.clearfix {
-	clear:left;
-}
 .filter {
 	margin-bottom: 1.563em;
 	color: #D4BE1D;

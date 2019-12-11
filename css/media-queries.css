@@ -2,7 +2,9 @@
 smaller than 980
 *************************************************************************************/
 @media screen and (max-width: 980px) {
-
+       .phone {
+                margin: auto;
+        }
 	/* pagewrap */
 	#pagewrap {
 		width: 95%;
@@ -38,7 +40,9 @@ smaller than 980
 smaller than 650
 *************************************************************************************/
 @media screen and (max-width: 650px) {
-
+        .phone {
+                margin: auto;
+        }
 	/* header */
 	#header {
 		height: auto;
@@ -107,6 +111,9 @@ smaller than 650
 smaller than 560
 *************************************************************************************/
 @media screen and (max-width: 480px) {
+         .header  {
+               flex-direction: column;
+        }
 
 	/* disable webkit text size adjust (for iPhone) */
 	html {
