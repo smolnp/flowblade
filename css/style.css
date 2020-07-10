@@ -435,7 +435,6 @@ nav a:active	{
 	color: #000;
 }
 
-
 .navigation ul {
 	background-color: #10131e;
 	color:#ffffff;
@@ -467,6 +466,29 @@ nav a:active	{
 	list-style-type: none;
 	text-align: center;
 	border: 0;
+}
+
+/** Table**/
+.tablestyle {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablestyle  td, .tablestyle th {
+  border: 0.063em solid #2a3b4d;
+  padding: 0.375em;
+}
+
+.tablestyle tr:nth-child(even){background-color: #1d2334;}
+
+.tablestyle  tr:hover {background-color: #195093;}
+
+.tablestyle th {
+  padding-top: 0.750em;
+  padding-bottom: 0.750em;
+  text-align: left;
+  background-color: #10131e;
+  color: white;
 }
 
 /** Columns **/
