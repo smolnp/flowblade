@@ -76,8 +76,8 @@ body {
 	background: rgba(16, 19, 30, 0.8); url(images/bg0.jpg) no-repeat top center;
         color: #cfcfd0; 
         background-size: 100%;
-	font-family: Helvetica, Arial,sans-serif; 
-	font-size: 0.95em; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 0.984em; 
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
@@ -128,10 +128,10 @@ b {
 
 header { 
 	padding: 0;
-        position: relative;
+    position: relative;
 	width: 100%;
 	max-width: 750.000em;
-        margin: auto;   
+    margin: auto;   
 }
 
 .header {
@@ -155,21 +155,22 @@ h1 {
 	font-size: 2em;
 }
 h2 {
-	font-size: 1.6em;
+	font-size: 1.7em;
 }
 h3 {
-	font-size: 1.4em;
+	font-size: 1.5em;
 
 }
 h4 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 h5 {
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 h6 {
-	font-size: 1em;
+	font-size: 1.1em;
 }
+
 /* reset webkit search input styles */
 input[type=search] {
 	-webkit-appearance: none;
@@ -389,8 +390,8 @@ nav a:active	{
 .text-quote {
 	font-style: italic;
 	text-align: center;
-	font-size: 0.750em;
-	margin-bottom: 0.750em;
+	font-size: 0.850em;
+	margin-bottom: 0.850em;
 }
 
 #featured {
