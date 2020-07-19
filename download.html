@@ -47,6 +47,15 @@
 </ul>
 <h3>Установка из репозитория вашего дистрибутива</h3>
 <p>Самый простой способ установки Flowblade — это установка версии из репозитория вашего дистрибутива. Основным недостатком такой установки может стать устаревшая версия видеоредактора. Если в репозитории вашего дистрибутива находится старая версия Flowblade или отсутствует вовсе, сообщите об этом его разработчикам.</p>
+<h4>Arch Linux</h4>
+<ul>
+	<li><p>Включите репозиторий сообщества в /etc/pacman.conf:</p>
+	<div class="border">[community]<br>
+Include = /etc/pacman.d/mirrorlist</div>
+	<li><p>Задайте команду установки:</p>
+	<div class="code-bg">pacman -Syu flowblade</div>
+	</li>
+</ul>
 <h4>Debian, Ubuntu и Linux Mint</h4>
 <ul>
 	<li><p>Обновите список репозиториев:</p>
@@ -58,9 +67,7 @@
 <h4>Fedora</h4>
 <ul>
 	<li><p>Загрузите последнюю версию rpmfusion-free-release-stable с:</p>
-<br />	
 <div class="border">http://download1.rpmfusion.org/free/fedora/</div>
-        <br>
         <li><p>Установите rpmfusion-free-release-stable rpm:</p>
 	<div class="code-bg">sudo rpm -Uvh rpmfusion-free-release-stable*rpm</div>
 	<li><p>Задайте команду установки:</p>
@@ -94,14 +101,14 @@
 <div class="border">ПРИМЕЧАНИЕ: версия в Flatpak может отставать от версии из <a href="https://github.com/jliljebl/flowblade/releases">основного репозитория.</a></div>
 <h3>Запуск без установки (из исходного кода)</h3>
 <p>Flowblade в настоящее время на 100% является скриптовым приложением, а все зависимости должны быть доступны в популярных дистрибутивах. Поэтому, в большинстве случаев, как стабильную так и разрабатываемую версии Flowblade можно запустить без компиляции.</p>
-<li><p>В начале скачайте архив с исходным кодом с нужной стабильной версией <a href="https://github.com/jliljebl/flowblade/releases">отсюда</a> и распакуйте архив в любую папку. Если вы хотите попробовать разрабатываемую версию выполните следующие действия с помощью терминала:</p></li>
-	<ul>
-	<li><p>Установите Git в вашей системе (к примеру в Ubuntu)</p>
+<ul>
+<li><p>В начале скачайте архив с исходным кодом с нужной стабильной версией <a href="https://github.com/jliljebl/flowblade/releases">отсюда</a> и распакуйте архив в любую папку. Если вы хотите попробовать разрабатываемую версию выполните следующие действия с помощью терминала:</p>
+	<li><p>Установите Git в вашей системе (к примеру в Ubuntu)
 	<div class="code-bg">sudo apt-get install git</div>
 	<li><p>Скачайте Flowblade c Git репозитория</p>
 	<div class="code-bg">git clone https://github.com/jliljebl/flowblade.git</div>
-	</ul>
 <li>Установите зависимости. Информацию о необходимых зависимостях можно посмотреть в разделе <a href="https://github.com/jliljebl/flowblade/blob/master/flowblade-trunk/docs/DEPENDENCIES.md">Зависимости</a>.</li>
+</ul>
 <p>Если в вашей системе Flowblade был установлен ранее, все необходимые зависимости также должны были установиться. Но помним, что могли быть добавлены новые.</p><br>
 <li>Запустите файл <b>flowblade</b>, который должен находится в распакованной  или скачанной папке по адресу <b>.../flowblade-trunk/flowblade</b>.</li>
 	<ul>
