@@ -1,10 +1,36 @@
 /************************************************************************************
+smaller than 1199
+*************************************************************************************/
+@media (max-width:1199px ) {
+	.txt {
+		display: block;
+		width: 100%;
+		margin: 0 0 5px 0
+	}
+	.txtarea {
+		width: 100%;
+		margin: 0
+	}
+	#send {
+		width: 100%
+	}
+	#inline {
+		width: 100%;
+		padding: 0 10px
+	}
+	.content {
+		width: 100%
+	}
+	.wrap {
+		width: 100%
+	}
+}
+
+/************************************************************************************
 smaller than 980
 *************************************************************************************/
 @media screen and (max-width: 980px) {
-       .phone {
-                margin: auto;
-        }
+
 	/* pagewrap */
 	#pagewrap {
 		width: 95%;
@@ -40,9 +66,7 @@ smaller than 980
 smaller than 650
 *************************************************************************************/
 @media screen and (max-width: 650px) {
-        .phone {
-                margin: auto;
-        }
+
 	/* header */
 	#header {
 		height: auto;
@@ -111,9 +135,6 @@ smaller than 650
 smaller than 560
 *************************************************************************************/
 @media screen and (max-width: 480px) {
-         .header  {
-               flex-direction: column;
-        }
 
 	/* disable webkit text size adjust (for iPhone) */
 	html {
