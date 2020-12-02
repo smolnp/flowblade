@@ -32,11 +32,11 @@
         <div class="content-box">
         <div class="post">
 <script src="js/tocgen.js"></script>
-  <h2><div class="title">Установка</h2>
-<p style="margin-top:40px"><div class="border"><b>ПРИМЕЧАНИЕ: Новые версии Flowblade требуют MLT 6.18, который недоступен, например, в Ubuntu 18.04. </b></div></div>
+  <h1>Установка</h1>
+<center><p><div class="border">ПРИМЕЧАНИЕ: Новые версии Flowblade требуют MLT 6.18, который недоступен, например, в Ubuntu 18.04.</div></p></center>
 <div id="toc"></div>
 <div id="toccontent">
-<h3>Установка с использованием .deb</h3>
+<h2>Установка с использованием .deb</h2>
 <p><b>Сначала скачайте пакет .deb</b> с последней версией Flowblade <a href="https://github.com/jliljebl/flowblade/releases" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">отсюда.</a></p>
 <p>Для установки дважды щёлкните по пакету <b>.deb</b>.</p>
 <p>В некоторых системах двойной щелчок может не сработать (на Ubuntu иногда ставится старая версия из репозитория), в этом случае вам придётся установить пакет <b>.deb</b> с помощью терминала:</p>
@@ -45,9 +45,9 @@
 	<div class="code-bg">sudo apt install ./flowblade-2.6.3-1_all.deb</div>
 	</li>
 </ul>
-<h3>Установка из репозитория вашего дистрибутива</h3>
+<h2>Установка из репозитория вашего дистрибутива</h2>
 <p>Самый простой способ установки Flowblade — это установка версии из репозитория вашего дистрибутива. Основным недостатком такой установки может стать устаревшая версия видеоредактора. Если в репозитории вашего дистрибутива находится старая версия Flowblade или отсутствует вовсе, сообщите об этом его разработчикам.</p>
-<h4>Arch Linux</h4>
+<h3>Arch Linux</h3>
 <ul>
 	<li><p>Включите репозиторий сообщества в /etc/pacman.conf:</p>
 	<div class="border">[community]<br>
@@ -56,7 +56,7 @@ Include = /etc/pacman.d/mirrorlist</div>
 	<div class="code-bg">pacman -Syu flowblade</div>
 	</li>
 </ul>
-<h4>Debian, Ubuntu и Linux Mint</h4>
+<h3>Debian, Ubuntu и Linux Mint</h3>
 <ul>
 	<li><p>Обновите список репозиториев:</p>
 	<div class="code-bg">sudo apt update</div>
@@ -64,7 +64,7 @@ Include = /etc/pacman.d/mirrorlist</div>
 	<div class="code-bg">sudo apt install flowblade</div>
 	</li>
 </ul>
-<h4>Fedora</h4>
+<h3>Fedora</h3>
 <ul>
 	<li><p>Загрузите последнюю версию rpmfusion-free-release-stable с:</p>
 <div class="border">http://download1.rpmfusion.org/free/fedora/</div>
@@ -74,20 +74,20 @@ Include = /etc/pacman.d/mirrorlist</div>
 	<div class="code-bg">sudo dnf install flowblade</div>
 	</li>
 </ul>
-<h4>OpenMandriva</h4>
+<h3>OpenMandriva</h3>
 <ul>
 	<li><p>Включите репозиторий в приложении выбора репозитория (om-repo-picker)</p>
 	<li><p>Задайте команду установки:</p>
         <div class="code-bg">dnf install flowblade</div>
 	</li>
 </ul>
-<h4>ROSA Desktop Fresh</h4>
+<h3>ROSA Desktop Fresh</h3>
 <ul>
 	<li><p>Откройте терминал и задайте команду:</p>
 	<div class="code-bg">sudo urpmi flowblade</div>
 	</li>
 </ul>
-<h3>Установка через Flatpak</h3>
+<h2>Установка через Flatpak</h2>
 <p>Flowblade также можно установить через <a href="https://flatpak.org/setup/" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Flatpak</a>.</p>
 <p>Если в вашем дистрибутиве присутствует приложение Gnome SOFTWARE, вы можете установить Flowblade из него.</p>
 <p><b>Можно через терминал:</b></p>
@@ -98,7 +98,7 @@ Include = /etc/pacman.d/mirrorlist</div>
 	<div class="code-bg">flatpak run io.github.jliljebl.Flowblade</div>
 	</li>
 </ul>
-<div class="border">ПРИМЕЧАНИЕ: версия в Flatpak может отставать от версии из <a href="https://github.com/jliljebl/flowblade/releases" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">основного репозитория.</a></div>
+<center><div class="border">ПРИМЕЧАНИЕ: версия в Flatpak может отставать от версии из <a href="https://github.com/jliljebl/flowblade/releases" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">основного репозитория.</a></div></center>
 <h3>Запуск без установки (из исходного кода)</h3>
 <p>Flowblade в настоящее время на 100% является скриптовым приложением, а все зависимости должны быть доступны в популярных дистрибутивах. Поэтому, в большинстве случаев, как стабильную так и разрабатываемую версии Flowblade можно запустить без компиляции.</p>
 <ul>
@@ -109,12 +109,12 @@ Include = /etc/pacman.d/mirrorlist</div>
 	<div class="code-bg">git clone https://github.com/jliljebl/flowblade.git</div>
 <li>Установите зависимости. Информацию о необходимых зависимостях можно посмотреть в разделе <a href="https://github.com/jliljebl/flowblade/blob/master/flowblade-trunk/docs/DEPENDENCIES.md" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Зависимости</a>.</li>
 </ul>
-<p>Если в вашей системе Flowblade был установлен ранее, все необходимые зависимости также должны были установиться. Но помним, что могли быть добавлены новые.</p><br>
+<p>Если в вашей системе Flowblade был установлен ранее, все необходимые зависимости также должны были установиться. Но помним, что могли быть добавлены новые.</p>
+<ul>
 <li>Запустите файл <b>flowblade</b>, который должен находится в распакованной  или скачанной папке по адресу <b>.../flowblade-trunk/flowblade</b>.</li>
-	<ul>
-	<p>ОБРАТИТЕ ВНИМАНИЕ: если в вашей системе Flowblade уже установлен, для запуска сценария вам потребуется указать полный путь к запускаемой версии или открыть терминал в папке, содержащей сценарий запуска и задать команду <b>./flowblade</b>, во избежании запуска установленной версии.</p>
-<p style="margin-top:40px"><div class="border"><b>Windows и OS X не поддерживаются. Разработчики Flowblade сосредоточены на предоставлении наилучшей поддержки в Linux и в других свободных платформах.</b></div></div>
-    </div>
+	</ul></div>
+	<p div class="border">ОБРАТИТЕ ВНИМАНИЕ: если в вашей системе Flowblade уже установлен, для запуска сценария вам потребуется указать полный путь к запускаемой версии или открыть терминал в папке, содержащей сценарий запуска и задать команду <b>./flowblade</b>, во избежании запуска установленной версии.</div></p>
+<center><p div class="border" >Windows и OS X не поддерживаются. Разработчики Flowblade сосредоточены на предоставлении наилучшей поддержки в Linux и в других свободных платформах.</div></p></center>
   </div>
   <div id="footer">
     <p>Flowblade — бесплатный, простой и стабильный видеоредактор</p>
