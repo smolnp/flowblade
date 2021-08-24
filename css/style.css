@@ -93,18 +93,6 @@ a:active {
 	top: 0.125em;
 }
 
-.clearfix {
-	clear: both;
-}
-
-.back  {
-	padding-left: 0.625em;
-}
-
-.back a, .back a:visited {
-	color: #0054A6;
-}
-
 body {
 	background: rgba(16, 19, 30, 0.8); url(images/bg0.jpg) no-repeat top center;
     color: #cfcfd0;
@@ -132,6 +120,25 @@ b {
 	color: #E0E2EA;
 }
 
+kbd{
+  border-radius: 0.188em;
+  background: rgba(11, 12, 18, 0.94);
+  padding: 0.188em 0.25em;
+  border: 0.063em solid #323540;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.back  {
+	padding-left: 0.625em;
+}
+
+.back a, .back a:visited {
+	color: #0054A6;
+}
+
 .centered-text {
 	text-align: center;
 	text-transform: uppercase;
@@ -157,7 +164,7 @@ b {
 	width: 100%;
 	background: rgba(16, 23, 30, 0.85);
 	padding: 0.625em 0em;
-	border: 0.125em solid #131829
+	border: 0.125em solid #131829;
 }
 
 header {
