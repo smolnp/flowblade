@@ -42,11 +42,26 @@
 <p>В некоторых системах двойной щелчок может не сработать (на Ubuntu иногда ставится старая версия из репозитория), в этом случае вам придётся установить пакет <b>.deb</b> с помощью терминала:</p>
 <ul>
 	<li><p>Откройте терминал в папке, в которой был сохранён загруженный пакет <b>.deb</b> и задайте команду:</p>
-	<div class="code-bg">sudo apt install ./flowblade-2.8.0.1-1_all.deb</div>
+	<div class="code-bg">sudo apt install ./flowblade-2.8.0-3_all.deb</div>
 	</li>
 </ul>
 <h2>Установка из репозитория вашего дистрибутива</h2>
 <p>Самый простой способ установки Flowblade — это установка версии из репозитория вашего дистрибутива. Основным недостатком такой установки может стать устаревшая версия видеоредактора. Если в репозитории вашего дистрибутива находится старая версия Flowblade или отсутствует вовсе, сообщите об этом его разработчикам.</p>
+
+<h3>Alt Linux</h3>
+<div class="border">Источник: <a href="https://vk.com/@kirov_osc-ustanovka-flowblade-v-alt-linux" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Установка Flowblade в ALT Linux.</a></div>
+<ul>
+	<li><p>С помощью терминала подключите репозиторий Сизиф:</p>
+	<div class="code-bg">sudo apt-repo rm all<br />sudo apt-repo add sisyphus</div>
+	</li>
+	<li><p><p>Обновите список репозиториев:</p></p>
+	<div class="code-bg">sudo apt-get update</div>
+	</li>
+	<li><p>Задайте команду установки:</p>
+	<div class="code-bg">sudo apt-get install flowblade</div>
+	</li>
+</ul>
+
 <h3>Arch Linux</h3>
 <ul>
 	<li><p>Включите репозиторий сообщества в /etc/pacman.conf:</p>
