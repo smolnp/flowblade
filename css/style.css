@@ -319,6 +319,28 @@ nav a:active	{
 	padding-top: 0.825em;
 }
 
+.box-left {
+	margin-left: 0.938em;
+	margin-right: 0.938em;
+}
+
+.box-left img {
+	padding-top: 0.825em;
+        float: left; 
+        padding: 0em 0.938em 0.938em 0em;     
+}
+
+.box-right {
+	margin-left: 0.938em;
+	margin-right: 0.938em;
+}
+
+.box-right img {
+	padding-top: 0.825em;
+        float: right; 
+        padding: 0em 0.938em 0.938em 0.625em;
+}
+
 .big-text {
 	font-size: 1.375em;
 	line-height: 1.375em;
