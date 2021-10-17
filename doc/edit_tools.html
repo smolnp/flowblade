@@ -2,40 +2,45 @@
 <html class="client-nojs" lang="ru" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-		<title>Flowblade|Инструменты</title>
-                <link rel="shortcut icon" href="images/icon.png" />
-                <script type="text/javascript" src="../js/jquery.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/media-queries.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-   body {
-    background: #2A3B4D url(../images/bg1.jpg);
-   }
-  </style>
-	</head>
-	<body>
-		<div id="wrapper">
- <body>
-  <header class="header">
-   <nav class="logo">
-   <a href="../index.html"><img src="../images/header_text_white_small.webp" alt="Flowblade"></a></nav>
-                                        <nav class="menu">
-					<a href="../download.html">Установка</a>
-					<a href="help.html">Руководство</a>
-					<a href="../features.html">Возможности</a>
-					<a href="../info.html">О проекте</a>
-				</nav>
-			</header>
-	<div class="white-bg" >
-        <div class="content-box">
-        <div class="post">
+<title>Flowblade | Режим работы и инструменты редактирования</title>
+<link rel="shortcut icon" href="images/icon.png" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/media-queries.css" rel="stylesheet" type="text/css">
+</head>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/header_text_white_small.png" alt="Flowblade"></a></nav>
+        </div>
+        <nav class="menu">
+            <ul>
+				<li><a href="../features.html">Возможности</a></li>
+				<li><a href="../download.html">Установка</a></li>
+				<li><a href="help.html">Руководство</a></li>
+                <li><a href="../article/article.html">Статьи</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="header-slider">
+            <ul>
+                <li>Ночь</li>
+                <li><label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider"><span class="slider round"></span></label></li>
+                <li>День</li>
+            </ul>
+        </div>
+    </header>
+    <body>
+<div id="pagewrap">
+	<div id="content">
+		<article class="post clearfix">
+			<figure class="post-image">
 <script src="../js/tocgen.js"></script>
-           <h1><a style="" href="help.html">Оглавление</a> / Режим работы и инструменты редактирования</h1>
-<br />
-<p>Видеоредактор Flowblade предоставляет 10 инструментов редактирования, <b>4 инструмента перемещения</b>, <b>4 инструмента обрезки</b>, <b>инструмент «Резка»</b> и <b>инструмент «Ключевой кадр»</b>.</p>
-<div id="toccontent">
+           <h1>Режим работы и инструменты редактирования</h1>
+	<p><input type="button" name="print" value="Печать" style="width: 3.27cm; height: 0.98cm; color: #ffffff; background: #0a0a11" onclick="window.print()"></font></p>
+<h2>Содержание</h2>
 <div id="toc"></div>
+<div id="toccontent">
+<p>Видеоредактор Flowblade предоставляет 10 инструментов редактирования, <b>4 инструмента перемещения</b>, <b>4 инструмента обрезки</b>, <b>инструмент «Резка»</b> и <b>инструмент «Ключевой кадр»</b>.</p>
 <h2>Конфигурация режима работы</h2>
 <p>Flowblade предлагает настраиваемый режим работы с выбором набора инструментов и поведения монтажного стола.</p>
 <p>Режим работы настраивается из меню, запускаемого нажатием на значок <img src="images/icons/workflow.png">.</p>
@@ -108,8 +113,8 @@
 </ul>
 </ol>
 <h2>Выбор инструментов</h2>
-<p>Используйте выпадающее меню <b>Переключателя инструментов</b> или клавиши <b>1-9</b>.</p>
-<div class="border"><b>Используйте горячие клавиши!</b> Гораздо удобнее и быстрее использовать клавиши <b>1-9</b>  для смены инструментов. Обратите внимание, что с помощью клавиш менять инструменты можно, только, если курсор находится в фокусе монтажного стола.</div>
+<p>Используйте выпадающее меню <b>Переключателя инструментов</b> или клавиши <kbd>1-9</kbd>.</p>
+<div class="box-text"><b>Используйте горячие клавиши!</b> Гораздо удобнее и быстрее использовать клавиши <kbd>1-9</kbd>  для смены инструментов. Обратите внимание, что с помощью клавиш менять инструменты можно, только, если курсор находится в фокусе монтажного стола.</div>
 <h2>Инструменты перемещения</h2>
 <a id="insert"></a>
 <h3>Вставка</h3>
@@ -121,7 +126,7 @@
 	</ul>
 <li> Выбор группы клипов</li>
 	<ul>
-	<li> Нажмите <b>Ctrl + Левой кнопкой мыши</b> по тому клипу, который будет использоваться в качестве второй стороны группы клипов для вставки.</li>
+	<li> Нажмите <kbd>Ctrl + Левой кнопкой мыши</kbd> по тому клипу, который будет использоваться в качестве второй стороны группы клипов для вставки.</li>
 	</ul>
 <li> Перенос клипа (группы клипов) в новое место</li>
 	<ul>
@@ -155,7 +160,7 @@
 	<ul>
 	<li> <b>Левой кнопкой мыши</b> нажмите на клип.</li>
 <li> Выбор группы клипов</li>
-	<li> Нажмите <b>Ctrl + Левой кнопкой мыши</b> по тому клипу, который будет использоваться в качестве второй стороны группы клипов для перемещения.</li>
+	<li> Нажмите <kbd>Ctrl + Левой кнопкой мыши</kbd> по тому клипу, который будет использоваться в качестве второй стороны группы клипов для перемещения.</li>
 	</ul>
 <li> Перенос клипа (группы клипов) в новое место</li>
 	<ul>
@@ -197,9 +202,9 @@
 <li> Перемещайте мышь <b>Влево</b> и все элементы справа от него переместятся в новую позицию.</li>
 <li> Невозможно переместить элементы поверх клипов. Элементы можно перемещать только поверх пустого пространства.</li>
 	</ul>
-<li> Перемещение элементов с помощью клавиши <b>Control</b> только на одной дорожке</li>
+<li> Перемещение элементов с помощью клавиши <kbd>Control</kbd> только на одной дорожке</li>
 	<ul>
-<li> Нажмите клавишу <b>Control</b> и с помощью <b>Левой кнопки мыши</b> переместите все элементы на одной дорожке справа от выбранного клипа.</li>
+<li> Нажмите клавишу <kbd>Control</kbd> и с помощью <b>Левой кнопки мыши</b> переместите все элементы на одной дорожке справа от выбранного клипа.</li>
 	</ul>
 </ol>
 <a id="box"></a>
@@ -322,24 +327,44 @@
 </ul>
 </div>
 </div>
-</div>
-</div>
-  <div id="footer">
-<a style="" href="help.html">Оглавление</a><br />
-<br>
-<a style="" href="intro.html">Введение</a>  |
-<a style="" href="basic_editing.html">Основы редактирования</a>  |
-<a style="color: #FFF" href="edit_tools.html">Режим работы и инструменты редактирования</a>  |
-<a style="" href="compositor.html">Основы композитинга</a>  |
-<a style="" href="filtering.html">Эффекты</a>  |
-<a style="" href="range_log.html">Журнал участков</a>  |
-<a style="" href="proxy.html">Прокси-клипы</a>  |
-<a style="" href="container_clips.html">Контейнерные клипы</a>  |
-<a style="" href="tools.html">Автономные инструменты</a>  |
-<a style="" href="advanced.html">Расширенные возможности редактирования</a>  |
-<a style="" href="rendering.html">Сборка</a></div>
-</a></p>
+
+			</section>
+		</article>
+	<aside id="sidebar">
+		<section class="widget">
+<div class="front-text">
+<h3>Оглавление</h3>
+    <ul>
+        <li><a href="help.html">Введение</a></li>
+        <li><a href="interface.html">Интерфейс Flowblade</a></li>
+        <li><a href="basic_editing.html">Основы редактирования</a></li>
+        <li><a href="edit_tools.html"><span><b>Режим работы и инструменты редактирования</b></span></a></li>
+        <li><a href="compositor.html">Основы композитинга</a></li>
+        <li><a href="filtering.html">Эффекты</a></li>
+        <li><a href="range_log.html">Журнал участков</a></li>
+        <li><a href="proxy.html">Прокси-клипы</a></li>
+        <li><a href="container_clips.html">Контейнерные клипы</a></li>
+        <li><a href="tools.html">Автономные инструменты</a></li>
+        <li><a href="advanced.html">Расширенные возможности редактирования</a></li>
+        <li><a href="rendering.html">Сборка</a></li>
+    </ul>
+<h3>Приложения</h3>
+    <ul>
+        <li><a href="kbshortcuts.html">Комбинации клавиш в Flowblade по умолчанию</a></li>
+        <li><a href="filters_list.html">Список эффектов с предустановленными параметрами</a></li>
+    </ul>
   </div>
+		</section>				
+	</aside>
+</div>
+  </div>
+  </div>
+  </div>
+	<footer id="footer">
+<p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Github(en)</a>, <a href="https://vk.com/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">YouTube</a> | Апстрим: <a href="https://www.mltframework.org" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">GPL3</a></p>
+<p>(C) 2018-2021 Русскоязычный веб-сайт для пользователей Flowblade</p>
+   </footer>
+  <script src="../js/style.js"></script>
 </div>
 </body>
 </html>
