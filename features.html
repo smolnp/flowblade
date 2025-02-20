@@ -1,36 +1,41 @@
  <!DOCTYPE html>
 <html class="client-nojs" lang="ru" dir="ltr">
-<head>
-<meta charset="UTF-8"/>
-		<title>Flowblade|Возможности</title>
-                <link rel="shortcut icon" href="images/icon.webp" />
-                <script src="js/jquery.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-   body {
-    background: #2A3B4D url(images/bg1.jpg);
-   }
-  </style>
-	</head>
-	<body>
-		<div id="wrapper">
- <body>
-  <header class="header">
-   <nav class="logo">
-   <a href="index.html"><img src="images/header_text_white_small.webp" alt="Flowblade"></a></nav>
-                                        <nav class="menu">
-					<a href="download.html">Установка</a>
-					<a href="doc/help.html">Руководство</a>
-					<a href="features.html">Возможности</a>
-					<a href="info.html">О проекте</a>
-				</nav>
-			</header>
-	<div class="white-bg" >
+    <head>
+        <meta charset="UTF-8"/>
+            <title>Flowblade | Статьи</title>
+            <link rel="shortcut icon" href="images/icon.webp" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="css/styles.css" rel="stylesheet" type="text/css">
+            <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+    </head>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img <img src="images/header_text_white_small.png" alt="Flowblade"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+		        <li><a href="features.html">Возможности</a></li>
+		        <li><a href="download.html">Установка</a></li>
+		        <li><a href="doc/help.html">Руководство</a></li>
+            </ul>
+        </nav>
+        </div>
+    <div class="header-slider">
+        <div class="header-slider">
+            <ul>
+                <li>Ночь</li>
+                <li><label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider"><span class="slider round"></span></label></li>
+                <li>День</li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <body>
+	<div id="wrapper">
+		<article class="post clearfix">
+			<figure class="post-image"> 
         <div class="content-box">
-        <div class="post">
- <h1>Возможности</h1>
+ <h1><div class="title">Возможности</h1>
 <h2>Инструменты</h2>
 <h3>Инструменты перемещения</h3>
 <ul>
@@ -82,13 +87,13 @@
 <h2>Эффекты</h2>
 <ul>
 <li><b>Альфа:</b>
-Блуждающая маска, Выделение по цвету, Вытеснение, Градиент Альфа, <a href="https://ru.wikipedia.org/wiki/Кадрирование" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Кадрирование</a>, Ключ яркости, Модификация альфа, Непрозрачность, Подавление рассеивания, Файл каше в альфа, Фигуры в альфа, <a href="https://ru.wikipedia.org/wiki/Хромакей" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Хромакей;</a>
+Блуждающая маска, Выделение по цвету, Градиент Альфа, <a href="https://ru.wikipedia.org/wiki/Кадрирование" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Кадрирование</a>, Ключ яркости, Модификация альфа, Непрозрачность, Подавление рассеивания, Файл каше в альфа, Фигуры в альфа, <a href="https://ru.wikipedia.org/wiki/Хромакей" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Хромакей;</a>
 </li>
 <li><b>Движение:</b>
-Балтан, Головокружение, Нервозность, Стоп-кадр;
+Балтан, Головокружение, Нервозность, Пропуск кадров, Стоп-кадр, Шлейф;
 </li>
 <li><b>Звук:</b>
-Громкость, Моно в стерео, Нормализация, Панорама, Панорама по ключевым кадрам, Поменять каналы местами;
+Громкость, Моно в стерео, Нормализация, Панорама, Панорама правого канала, Панорама левого канала, Поменять каналы местами;
 </li>
 <li><b>Звуковые фильтры:</b>
 Delayorama, GSM симулятор, Pitchshifter - AM, Виниловая пластинка, Изменение тона (высокое качество), Искажение (Barry's Satan), Искажение (Диодный процессор), Искажение (Наложение спектров), Искажение (Оборот волны), Искажение (Указатель поворота), Полосовой фильтр, Пороговый шумоподавитель, <a href="https://ru.wikipedia.org/wiki/Реверберация" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Реверберация</a> (пластина), <a href="https://ru.wikipedia.org/wiki/Реверберация" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Реверберация</a> (GVerb),  Смещение сигнала, Смещение скорости, Смещение частоты - Bode/Moog, Удаление клиппинга, ФВЧ (Баттерворта), ФНЧ (Баттерворта), Фленджер (DJ), Хор (Мультиголос), Эквалайзер (многополосный), Эквалайзер (трёхполосный);
@@ -187,13 +192,15 @@ Lut3D, Баланс белого, Инвертировать, Колерован
 <p>comfortnoises302m, aac, ac3, ac3 fixed, alac, dca, eac3, flac, g723 1, mp2, mp2fixed, nellymoser, real 144, sonic, sonicls, tta, vorbis, wavpack, wmav1, wmav2, pcm alaw, pcm f32be, pcm f32le, pcm f64be, pcm f64le, pcm mulaw, pcm s8, pcm s8 planar, pcm s16be, pcm s16be planar, pcm s16le, pcm s16le planar, pcm s24be, pcm s24daud, pcm s24le, pcm s24le planar, pcm s32be, pcm s32le, pcm s32le planar, pcm u8, pcm u16be, pcm u16le, pcm u24be, pcm u24le, pcm u32be, pcm u32le, roq dpcm, adpcm adx, g722, g726, adpcm ima qt, adpcm ima wav, adpcm ms, adpcm swf, adpcm yamaha, libmp3lame, libvorbis.</p>
 <h3>Форматы поддерживаемые MLT</h3>
 <p>a64, ac3, adts, adx, aiff, amr, apng, asf, ass, ast, asf stream, au, avi, avm2, bit, caf, cavsvideo, crc, dash, data, daud, dirac, dnxhd, dts, dv, eac3, f4v, ffm, ffmetadata, filmstrip, flac, flv, framecrc, framemd5, g722, g723 1, gif, gxf, h261, h263, h264, hds, hevc, hls, ico, ilbc, image2, image2pipe, ipod, ircam, ismv, ivf, jacosub, latm, lrc, m4v, md5, matroska, matroska, microdvd, mjpeg, mlp, mmf, mov, mp2, mp3, mp4, mpeg, vcd, mpeg1video, dvd, svcd, mpeg2video, vob, mpegts, mpjpeg, mxf, mxf d10, mxf opatom, null, nut, oga, ogg, oma, opus, alaw, mulaw, f64be, f64le, f32be, f32le, s32be, s32le, s24be, s24le, s16be, s16le, s8, u32be, u32le, u24be, u24le, u16be, u16le, u8, psp, rawvideo, rm, roq, rso, rtp, rtp mpegts, segment, stream segment, ssegment, singlejpeg, smjpeg, smoothstreaming, sox, spx, spdif, srt, swf, tee, 3g2, 3gp, mkvtimestamp v2, truehd, uncodedframecrc, vc1, vc1test, voc, w64, wav, webm, webm dash manifest, webm chunk, webp, webvtt, wtv, wv, yuv4mpegpipe, alsa, fbdev, oss, sdl, v4l2.</p>
-  </div>
-  </div>
-  <div id="footer">
-    <p>Flowblade — бесплатный, простой и стабильный видеоредактор</p>
-    <p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке"">Github(en)</a>, <a href="https://vk.com/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">YouTube</a> | Апстрим: <a href="https://www.mltframework.org" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">GPL3</a></p>
-  </div>
+    </div>
+</div>
+					</section>
+		</article>
+	<footer id="footer">
+<p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Github(en)</a>, <a href="https://vk.com/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">YouTube</a> | Апстрим: <a href="https://www.mltframework.org" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">GPL3</a></p>
+<p>(C) 2018-2023 Русскоязычный веб-сайт для пользователей Flowblade</p>
+   </footer>
+  <script src="js/style.js"></script>
 </div>
 </body>
 </html>
-
