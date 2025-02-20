@@ -1,36 +1,40 @@
  <!DOCTYPE html>
 <html class="client-nojs" lang="ru" dir="ltr">
-<head>
-<meta charset="UTF-8"/>
-		<title>Flowblade|ЧАВо</title>
-                <link rel="shortcut icon" href="images/icon.png" />
-                <script type="text/javascript" src="../js/jquery.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/media-queries.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-   body {
-    background: #2A3B4D url(../images/bg1.jpg);
-   }
-  </style>
+    <head>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <title>Flowblade | ЧАВо</title>
+            <script type="text/javascript" src="../js/jquery.js"></script>
+            <link rel="shortcut icon" href="../images/icon.webp" />
+            <link href="../css/styles.css" rel="stylesheet" type="text/css">
+            <link href="../css/media-queries.css" rel="stylesheet" type="text/css">
 	</head>
-	<body>
-		<div id="wrapper">
- <body>
-  <header class="header">
-   <nav class="logo">
-   <a href="../index.html"><img src="../images/header_text_white_small.webp" alt="Flowblade"></a></nav>
-                                        <nav class="menu">
-					<a href="../download.html">Установка</a>
-					<a href="help.html">Руководство</a>
-					<a href="../features.html">Возможности</a>
-					<a href="../info.html">О проекте</a>
-				</nav>
-			</header>
-	<div class="white-bg" >
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/header_text_white_small.png" alt="Flowblade"></a></nav>
+        </div>
+        <nav class="menu">
+            <ul>
+				<li><a href="../features.html">Возможности</a></li>
+				<li><a href="../download.html">Установка</a></li>
+				<li><a href="help.html">Руководство</a></li>
+                <li><a href="../article/article.html">Статьи</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="header-slider">
+            <ul>
+                <li>Ночь</li>
+                <li><label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider"><span class="slider round"></span></label></li>
+                <li>День</li>
+            </ul>
+        </div>
+    </header>
+    <body>
+	<div id="wrapper">
+		<article class="post clearfix">
         <div class="content-box">
-        <div class="post">
-           <h1><a style="" href="../info.html">О проекте</a> / Часто задаваемые вопросы</h1>
+           <h1>Часто задаваемые вопросы</h1>
 <br>
 <ol>
 <a href="" class="btn-slide" ><h4>1. Не работают эффекты альфа</h4></a>
@@ -45,7 +49,7 @@
 <div class="panel">
 В Flowblade эффекты альфа применённые к кадрам с альфа-каналом будут работать, только в комбинации с композиторами объединяющими две видеодорожки.<br />
 Целью альфа-канала является компоновка двух дорожек. Если кадры не являются составной частью, то данные в альфа-канале не имеют никакой цели и не влияют на выход.<br />
-В качестве примера добавим «первый» клип на дорожку V1 над ним разместим «второй» клип на дорожке V2. В выпадающем меню клипа выберем «Добавить композитор» → «Наплыв» и добавим эффект альфа на дорожку V2. Теперь мы можем просмотреть работу эффекта альфа.></div>
+В качестве примера добавим «первый» клип на дорожку V1 над ним разместим «второй» клип на дорожке V2. В выпадающем меню клипа выберем «Добавить композитор» → «Наплыв» и добавим эффект альфа на дорожку V2. Теперь мы можем просмотреть работу эффекта альфа.</div>
 </ol>
 <ol>
 <a href="" class="btn-slide" ><h4>2. Не работают эффекты трансформации</h4></a>
@@ -66,7 +70,6 @@
 <a href="" class="btn-slide" ><h4>4. Будут ли версии для Windows или OSX?</h4></a>
 </script>
 <div class="panel">
-<br />
 В настоящее время выпуск для операционных систем, которые не базируются на ядре Linux не планируются. Но если в будущем кто-то предоставит качественные исправления и они не окажут негативного влияния на базу кода, то могут быть приняты.
 </div>
 </ol>
@@ -74,7 +77,7 @@
 <a href="" class="btn-slide" ><h4>5. При выборе профиля сборки с другой кадровой частотой меняется скорость воспроизведения видео и теряется синхронизация со звуком</h4></a>
 </script>
 <div class="panel">
-<br />Да, это произойдёт. При сборке видеокадры просто копируются, не происходит сложного замедления/ускорения, а звук не пересэмплируется.<br />
+Да, это произойдёт. При сборке видеокадры просто копируются, не происходит сложного замедления/ускорения, а звук не пересэмплируется.<br />
 Для сохранения синхронизации и скорости воспроизведения профиль проекта и профиль сборки должны соответствовать кадровой частоте исходного материала.
 </div>
 </ol>
@@ -82,18 +85,21 @@
 <a href="" class="btn-slide" ><h4>6. Wayland</h4></a>
 </script>
 <div class="panel">
-<br />Flowblade на Wayland пока не поддерживается, но всё же существуют способы запуска.<br />
+Flowblade на Wayland пока не поддерживается, но всё же существуют способы запуска.<br />
 <ul>
-	<li><p>Запуск Flowblade из терминала командой:
-	<div class="code-bg">
+	<li>Запуск Flowblade из терминала командой:</li>
+	<div class="code-text">
 	GDK_BACKEND = x11 flowblade
 	</div>
-	<li><p>Использование сеанса X11 при запуске Flowblade
-	</li>
+	<li>Использование сеанса X11 при запуске Flowblade</li>
 <ul>
     </div>
     </ol>
-</div>
-</div>
+</div></div>
+	<footer id="footer">
+<p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Github(en)</a>, <a href="https://vk.com/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">YouTube</a> | Апстрим: <a href="https://www.mltframework.org" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">GPL3</a></p>
+<p>(C) 2018-2021 Русскоязычный веб-сайт для пользователей Flowblade</p>
+   </footer>
+  <script src="../js/style.js"></script>
 </body>
 </html>

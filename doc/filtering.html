@@ -1,76 +1,78 @@
+ <!DOCTYPE html>
+<html class="client-nojs" lang="ru" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
 		<title>Flowblade|Эффекты</title>
-                <link rel="shortcut icon" href="images/icon.png" />
-                <script type="text/javascript" src="../js/jquery.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/media-queries.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-   body {
-    background: #293b4c url(../images/bg1.jpg);
-   }
-  </style>
-	</head>
-	<body>
-		<div id="wrapper">
- <body>
-  <header class="header">
-   <nav class="logo">
-   <a href="../index.html"><img src="../images/header_text_white_small.webp" alt="Flowblade"></a></nav>
-                                        <nav class="menu">
-					<a href="../download.html">Установка</a>
-					<a href="help.html">Руководство</a>
-					<a href="../features.html">Возможности</a>
-					<a href="../info.html">О проекте</a>
-				</nav>
-			</header>
-	<div class="white-bg" >
-        <div class="content-box">
-        <div class="post">
+<link rel="shortcut icon" href="images/icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/media-queries.css" rel="stylesheet" type="text/css">
+</head>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/header_text_white_small.png" alt="Flowblade"></a></nav>
+        </div>
+        <nav class="menu">
+            <ul>
+				<li><a href="../features.html">Возможности</a></li>
+				<li><a href="../download.html">Установка</a></li>
+				<li><a href="help.html">Руководство</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="header-slider">
+            <ul>
+                <li>Ночь</li>
+                <li><label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider"><span class="slider round"></span></label></li>
+                <li>День</li>
+            </ul>
+        </div>
+    </header>
+    <body>
+<div id="pagewrap">
+	<div id="content">
+		<article class="post clearfix">
+			<figure class="post-image">
 <script src="../js/tocgen.js"></script>
-           <h1><a style="" href="help.html">Оглавление</a> / Эффекты</h1>
+<h1>Эффекты</h1>
 <p>Эффектами в видеоредакторе Flowblade можно воспользоваться для внесения изменений в свойства звуковых и видео данных оригинального материала.</p>
-<br />
+<h2>Содержание</h2>
 <div id="toc"></div>
 <div id="toccontent">
 <h2>Работа с эффектами</h2>
 <h3>Добавление эффекта</h3>
 	<ul>
-<li> Щёлкните <b>Правой кнопкой мыши</b> по нужному клипу и выберите из всплывающего меню, к примеру, <b>Добавить эффект → Размывание → Пикселизация</b>.</li>
-<li> Во вкладке <b>Эффекты</b> дважды щёлкните по эффекту в текущем списке эффектов.</li>
-<li> Во вкладке <b>Эффекты</b> нажмите на кнопку добавить эффект в стек эффектов клипа.</li>
+<li> Щёлкните <b>Правой кнопкой мыши</b> по нужному клипу и выберите из всплывающего меню, к примеру, <span>Добавить эффект → Размывание → Пикселизация</span>.</li>
+<li> Во вкладке «Эффекты» дважды щёлкните по эффекту в текущем списке эффектов.</li>
+<li> Из вкладки «Эффекты» переместите выбранный эффект на клип расположенный на «Монтажном столе».</li>
 	</ul>
-<h3> Открытие вкладки «Эффекты» для изменения параметров</h3>
+<h3> Открытие вкладки «Правка» для изменения параметров</h3>
 	<ul>
-<li> Щёлкните <b>Правой кнопкой мыши</b> по нужному клипу и в всплывающем меню, выберите <b>Открыть в редакторе эффектов</b>.</li>
+<li> Щёлкните <b>Правой кнопкой мыши</b> по нужному клипу и в всплывающем меню, выберите <span>Изменить эффекты</span>.</li>
 <li> <b>Дважды щёлкните</b> по нужному клипу.</li>
 	</ul>
 <h3> Изменение параметров</h3>
 	<ul>
-<li>Параметры эффектов изменяются во вкладке «Эффекты»</li>
+<li>Параметры эффектов изменяются во вкладке «Правка»</li>
 <li> На клипах с добавленным эффектом, в верхнем правом углу, отображён небольшой значок <img src="images/icons/filter_clip_icon_sharp.png">.</li>
 <li> Если вы меняете параметры эффекта, то в центре клипа добавится ещё один значок серого цвета <img src="images/icons/clip_edited.png">. </li>
 <li>Эффекты, изменяющие альфа-канал, будут работать только в том случае, если клип, к которому они прикреплены, компонуется с другими клипами с помощью композитора.</li>
 	</ul>
-	<h3>Сохранение и загрузка параметров эффекта</h3>
+	<h3>Сохранение и загрузка параметров эффектов</h3>
 	<ul>
-<li> Слева внизу вкладки «Эффекты» выберите пункт выпадающего меню <b>Сохранить параметры эффекта</b> и в диалоговом окне выберите, где и под каким именем будет сохранён файл с параметрами.</li>
-<li> Для загрузки сохранённых параметров в эффекта выберите пункт того же выпадающего меню <b>Загрузить параметры эффекта</b>.</li>
-<li> Если нужно вернуть параметры в состояние по умолчанию выберите <b>Сбросить параметры эффекта</b>.</li>
+<li> Слева внизу вкладки «Эффекты» выберите пункт выпадающего меню <span>Сохранить стек эффектов</span> и в диалоговом окне выберите, где и под каким именем будет сохранён файл с параметрами.</li>
+<li> Для загрузки сохранённых параметров эффектов выберите пункт того же выпадающего меню <span>Загрузить стек эффектов</span>.</li>
 	</ul>
 <h3> Клонирование эффектов из других клипов</h3>
 	<ul>
-<li> Щёлкните <b>Правой кнопкой мыши</b> по нужному клипу и в всплывающем меню выберите <b>Клонировать эффект → Из следующего клипа</b> или <b>Клонировать эффект → Из предыдущего клипа</b>.</li>
+<li> Щёлкните <b>Правой кнопкой мыши</b> по нужному клипу и в всплывающем меню выберите <span>Клонировать эффект → Из следующего клипа</span> или <span>Клонировать эффект → Из предыдущего клипа</span>.</li>
 	</ul>
 <h3> Удаление эффектов из клипов</h3>
 	<ul>
-<li> Выберите эффект в стеке эффектов клипа и нажмите кнопку <b>Удалить</b>.</li>
-<li> Выберите эффект в стеке эффектов клипа и нажмите клавишу <b>Delete</b>.</li>
-<li> Выберите клип или участок клипа на монтажном столе и в всплывающем меню выберите <b>Удалить эффекты</b>.</li>
+<li> Выберите эффект в стеке эффектов клипа и нажмите кнопку <span>Удалить</span>.</li>
+<li> Выберите эффект в стеке эффектов клипа и нажмите клавишу <kbd>Delete</kbd>.</li>
+<li> Выберите клип или участок клипа на монтажном столе и в всплывающем меню выберите <span>Удалить эффекты</span>.</li>
 	</ul>
-<h2>Приложение</h2>
-<a href="filters_list.html">Список эффектов с предустановленными параметрами</a>
 <h2>Видеоурок</h2>
 <div class="video">
 <iframe width="450" height="260" src="https://www.youtube.com/embed/iySYcuzdsFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -78,23 +80,42 @@
   </div>
   </div>
   </div>
-</div>
-  <div id="footer">
-<a style="" href="help.html">Оглавление</a><br />
-<br>
-<a style="" href="intro.html">Введение</a>  |
-<a style="" href="basic_editing.html">Основы редактирования</a>  |
-<a style="" href="edit_tools.html">Режим работы и инструменты редактирования</a>  |
-<a style="" href="compositor.html">Основы композитинга</a>  |
-<a style="color: #FFF" href="filtering.html">Эффекты</a>  |
-<a style="" href="range_log.html">Журнал участков</a>  |
-<a style="" href="proxy.html">Прокси-клипы</a>  |
-<a style="" href="container_clips.html">Контейнерные клипы</a>  |
-<a style="" href="tools.html">Автономные инструменты</a>  |
-<a style="" href="advanced.html">Расширенные возможности редактирования</a>  |
-<a style="" href="rendering.html">Сборка</a></div>
-</a></p>
+			</section>
+		</article>
+	<aside id="sidebar">
+		<section class="widget">
+<div class="front-text">
+<h3>Оглавление</h3>
+    <ul>
+        <li><a href="help.html">Введение</a></li>
+        <li><a href="basic_editing.html">Основы редактирования</a></li>
+        <li><a href="edit_tools.html">Режим работы и инструменты редактирования</a></li>
+        <li><a href="compositor.html">Режимы композитинга</a></li>
+        <li><a href="filtering.html"><span><b>Эффекты</b></span></a></li>
+        <li><a href="range_log.html">Журнал участков</a></li>
+        <li><a href="proxy.html">Прокси-клипы</a></li>
+        <li><a href="container_clips.html">Контейнерные клипы</a></li>
+        <li><a href="tools.html">Автономные инструменты</a></li>
+        <li><a href="advanced.html">Расширенные возможности редактирования</a></li>
+        <li><a href="rendering.html">Сборка</a></li>
+    </ul>
+<h3>Приложения</h3>
+    <ul>
+        <li><a href="kbshortcuts.html">Комбинации клавиш в Flowblade по умолчанию</a></li>
+        <li><a href="filters_list.html">Список эффектов с предустановленными параметрами</a></li>
+    </ul>
   </div>
+		</section>
+	</aside>
+</div>
+  </div>
+  </div>
+  </div>
+	<footer id="footer">
+<p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Github(en)</a>, <a href="https://vk.com/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">YouTube</a> | Апстрим: <a href="https://www.mltframework.org" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">GPL3</a></p>
+<p>(C) 2018-2023 Русскоязычный веб-сайт для пользователей Flowblade</p>
+   </footer>
+  <script src="../js/style.js"></script>
 </div>
 </body>
 </html>

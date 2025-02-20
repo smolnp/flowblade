@@ -2,38 +2,41 @@
 <html class="client-nojs" lang="ru" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-		<title>Flowblade|Прокси-клипы</title>
-                <link rel="shortcut icon" href="images/icon.png" />
-                <script type="text/javascript" src="../js/jquery.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/media-queries.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-   body {
-    background: #293b4c url(../images/bg1.jpg);
-   }
-  </style>
-	</head>
-	<body>
-		<div id="wrapper">
- <body>
-  <header class="header">
-   <nav class="logo">
-   <a href="../index.html"><img src="../images/header_text_white_small.webp" alt="Flowblade"></a></nav>
-                                        <nav class="menu">
-					<a href="../download.html">Установка</a>
-					<a href="help.html">Руководство</a>
-					<a href="../features.html">Возможности</a>
-					<a href="../info.html">О проекте</a>
-				</nav>
-			</header>
-	<div class="white-bg" >
-        <div class="content-box">
-        <div class="post">
+<title>Flowblade | Прокси-клипы</title>
+<link rel="shortcut icon" href="images/icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/media-queries.css" rel="stylesheet" type="text/css">
+</head>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/header_text_white_small.png" alt="Flowblade"></a></nav>
+        </div>
+        <nav class="menu">
+            <ul>
+				<li><a href="../features.html">Возможности</a></li>
+				<li><a href="../download.html">Установка</a></li>
+				<li><a href="help.html">Руководство</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="header-slider">
+            <ul>
+                <li>Ночь</li>
+                <li><label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider"><span class="slider round"></span></label></li>
+                <li>День</li>
+            </ul>
+        </div>
+    </header>
+    <body>
+<div id="pagewrap">
+	<div id="content">
+		<article class="post clearfix">
+			<figure class="post-image">
 <script src="../js/tocgen.js"></script>
-           <h1><a style="" href="help.html">Оглавление</a> / Прокси-клипы</h1>
-<p>Редактирование прокси — это метод редактирования, в котором оригинальные медиаклипы представлены на монтажном столе прокси-клипами.</p>
-<br />
+           <h1>Прокси-клипы</h1>
+<p>Редактирование прокси — это метод редактирования, в котором исходные медиаклипы представлены на монтажном столе прокси-клипами.</p>
+<h2>Содержание</h2>
 <div id="toc"></div>
 <div id="toccontent">
 <h2>Обоснование</h2>
@@ -47,70 +50,88 @@
 Все рабочие процессы редактирования с использованием прокси имеют одни и те же этапы:
 </p>
 <ol>
-<li> Сборка прокси из оригинальных клипов </li>
-<li> Замена оригинальных клипов на прокси </li>
+<li> Сборка прокси из исходных клипов </li>
+<li> Замена исходных клипов на прокси </li>
 <li> Редактирование с использованием прокси </li>
-<li> Замена прокси на оригинальные клипы </li>
-<li> Финальная сборка с использованием оригинальных клипов </li>
+<li> Замена прокси на исходные клипы </li>
+<li> Финальная сборка с использованием исходных клипов </li>
 </ol>
 <h2>Редактирование прокси во Flowblade</h2>
+<h3>Включение режима «Использование прокси-клипов»</h3>
 <ol>
-<li> Включение режима <b>«Использование прокси-клипов»</b></li>
-<ol>
-<li> В главном меню выберите <b>«Проект»→«Менеджер прокси»</b>.</li>
-<li> В открывшемся окне задайте параметры для прокси в области <b>«Кодирование прокси»</b>.</li>
-<center><img src="images/proxy_01.png"></center>
+<li> В главном меню выберите <span>Проект → Менеджер прокси</span>.</li>
+<li> В открывшемся окне задайте параметры для прокси в области <span>Кодирование прокси</span>.</li>
+<center><img class="screenshot" src="images/proxy_01.png"></center>
 <p>
-<li> Нажмите кнопку <b>«Использовать прокси-клипы»</b>.</li>
+<li> Нажмите на кнопку <span>Использовать прокси-клипы</span>.</li>
 </ol>
-<li> Создание прокси-клипа</li>
+<h3>Создание прокси-клипа</h3>
 <ol>
-<li> Выберите клип во вкладке <b>«Медиа»</b> и нажав на него правой кнопкой мыши выберите <b>«Собрать прокси»</b>.</li>
-<li> Или выберите несколько клипов во вкладке <b>«Медиа»</b> и с помощью кнопки выпадающего меню вкладки <b>«Медиа»</b> выберите <b>«Сборка прокси для выбранных клипов»</b>.</li>
+<li> Выберите клип во вкладке <b>«Медиа»</b> и нажав на него правой кнопкой мыши выберите <span>Собрать прокси</span>.</li>
+<li> Или выберите несколько клипов во вкладке <b>«Медиа»</b> и с помощью кнопки выпадающего меню вкладки <b>«Медиа»</b> выберите <span>Сборка прокси для выбранных клипов</span>.</li>
 <p/>
-<center><img src="images/proxy_02.png"></center>
+<center><img class="screenshot" src="images/proxy_02.png"></center>
 <p>
-<li> Если проект уже находится в режиме прокси <b>«Использование прокси-клипов»</b> оригинальные клипы на монтажном столе, на которых были собраны прокси, будут заменены прокси-клипами.</li>
+<li> Если проект уже находится в режиме прокси <b>«Использование прокси-клипов»</b> исходные клипы на монтажном столе, на которых были собраны прокси, будут заменены прокси-клипами.</li>
 </ol>
-<li> Редактирование с использованием прокси-клипов</li>
+<h3>Редактирование с использованием прокси-клипов</h3>
 <ol>
 <li> Значок индикатора редактирования прокси во вкладке <b>«Медиа»</b> отображается в правом верхнем углу клипа.</li>
 <li> На монтажном столе, на прокси-клипах сверху расположена голубая полоса, указывающая на статус прокси.</li>
-<li> Если на монтажном столе создаётся новый клип использующий оригинальный медиафайл, то он немедленно будет заменён на прокси-клип.</li>
-<li> Проект может быть нормально сохранён и преобразован после загрузки, для использования оригинальных клипов.</li>
+<li> Если на монтажном столе создаётся новый клип использующий исходный медиафайл, то он немедленно будет заменён на прокси-клип.</li>
+<li> Проект может быть нормально сохранён и преобразован после загрузки, для использования исходных клипов.</li>
 </ol>
-<li> Включение режима <b>«Использование оригинальных клипов»</b></li>
+<h3>Включение режима «Использование исходных клипов»</h3>
 <ol>
-<li> В главном меню выберите <b>«Проект»→«Менеджер прокси»</b>.</li>
-<li> В открывшемся окне нажмите кнопку <b>«Использовать оригинальные клипы»</b>.</li>
+<li> В главном меню выберите <span>Проект → Менеджер прокси</span>.</li>
+<li> В открывшемся окне нажмите кнопку <span>Использовать исходные клипы</span>.</li>
 </ol>
 </ol>
 <h2>Важные замечания о редактировании прокси во Flowblade</h2>
-<div class="important" ><li> <b>УНИЧТОЖЕНИЕ ЛЮБОГО МЕДИА во время редактирования прокси СДЕЛАЕТ НЕВОЗМОЖНЫМ ПРЕОБРАЗОВАНИЕ И ВОЗВРАЩЕНИЕ К ИСПОЛЬЗОВАНИЮ ОРИГИНАЛЬНЫХ КЛИПОВ</b> </li>
-<li> <b>Можно использовать, либо все <i>существующие</i> прокси-клипы, либо все оригинальные клипы</b>. Нельзя выборочно использовать только некоторые из созданных прокси-клипов.</li></div>
-<br />
-<div class="border"><p>Flowblade использует технику программирования, которая изменяет пути, используемые элементами мультимедиа, чтобы указывать, либо на скрытые прокси-клипы, либо на оригинальные.</p>
-<p>Переход от одного к другому осуществляется путём записи скрытого временного файла проекта на диск и замены путей при чтении проекта. Из-за этого любой утерянный оригинальный клип преобразуется из прокси в оригинальный медиафайл.</p>
+<div class="important" ><li> <b>УНИЧТОЖЕНИЕ ЛЮБОГО МЕДИА во время редактирования прокси СДЕЛАЕТ НЕВОЗМОЖНЫМ ПРЕОБРАЗОВАНИЕ И ВОЗВРАЩЕНИЕ К ИСПОЛЬЗОВАНИЮ ИСХОДНЫХ КЛИПОВ.</b> </li>
+<li> <b>Можно использовать, либо все <i>существующие</i> прокси-клипы, либо все исходные клипы</b>. Нельзя выборочно использовать только некоторые из созданных прокси-клипов.</li></div>
+<div class="box-text"><p>Flowblade использует технику программирования, которая изменяет пути, используемые элементами мультимедиа, чтобы указывать, либо на скрытые прокси-клипы, либо на исходные.</p>
+<p>Переход от одного к другому осуществляется путём записи скрытого временного файла проекта на диск и замены путей при чтении проекта. Из-за этого любой утерянный исходный клип преобразуется из прокси в исходный медиафайл.</p>
   </div>
   </div>
   </div>
+			</section>
+		</article>
+	<aside id="sidebar">
+		<section class="widget">
+<div class="front-text">
+<h3>Оглавление</h3>
+    <ul>
+        <li><a href="help.html">Введение</a></li>
+        <li><a href="basic_editing.html">Основы редактирования</a></li>
+        <li><a href="edit_tools.html">Режим работы и инструменты редактирования</a></li>
+        <li><a href="compositor.html">Режимы композитинга</a></li>
+        <li><a href="filtering.html">Эффекты</a></li>
+        <li><a href="range_log.html">Журнал участков</a></li>
+        <li><a href="proxy.html"><span><b>Прокси-клипы</b></span></a></li>
+        <li><a href="container_clips.html">Контейнерные клипы</a></li>
+        <li><a href="tools.html">Автономные инструменты</a></li>
+        <li><a href="advanced.html">Расширенные возможности редактирования</a></li>
+        <li><a href="rendering.html">Сборка</a></li>
+    </ul>
+<h3>Приложения</h3>
+    <ul>
+        <li><a href="kbshortcuts.html">Комбинации клавиш в Flowblade по умолчанию</a></li>
+        <li><a href="filters_list.html">Список эффектов с предустановленными параметрами</a></li>
+    </ul>
+  </div>
+		</section>
+	</aside>
 </div>
-  <div id="footer">
-<a style="" href="help.html">Оглавление</a><br />
-<br>
-<a style="" href="intro.html">Введение</a>  |
-<a style="" href="basic_editing.html">Основы редактирования</a>  |
-<a style="" href="edit_tools.html">Режим работы и инструменты редактирования</a>  |
-<a style="" href="compositor.html">Основы композитинга</a>  |
-<a style="" href="filtering.html">Эффекты</a>  |
-<a style="" href="range_log.html">Журнал участков</a>  |
-<a style="color: #FFF" href="proxy.html">Прокси-клипы</a>  |
-<a style="" href="container_clips.html">Контейнерные клипы</a>  |
-<a style="" href="tools.html">Автономные инструменты</a>  |
-<a style="" href="advanced.html">Расширенные возможности редактирования</a>  |   |
-<a style="" href="rendering.html">Сборка</a></div>
-</a></p>
   </div>
+  </div>
+  </div>
+	<footer id="footer">
+<p id="links">Ресурсы: <a href="https://github.com/jliljebl/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Github(en)</a>, <a href="https://vk.com/flowblade" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">Вконтакте</a>, <a href="https://www.youtube.com/channel/UCVBxWbJtEXxCEY25MIcq5aQ?view_as=subscriber" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">YouTube</a> | Апстрим: <a href="https://www.mltframework.org" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">MLT Framework(en)</a> | Лицензия: <a href="http://www.gnu.org/licenses/gpl-3.0.ru.html" target="_blank" rel="noreferrer noopener" title="Открыть в новой вкладке">GPL3</a></p>
+<p>(C) 2018-2023 Русскоязычный веб-сайт для пользователей Flowblade</p>
+   </footer>
+  <script src="../js/style.js"></script>
 </div>
 </body>
+</html>
 </html>
